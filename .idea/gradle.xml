@@ -8,6 +8,18 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/tester" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demo" />
+        <option name="gradleHome" value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demo" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
