@@ -9,6 +9,8 @@
 
 gradle/*
 .idea/*
+.idea/gradle.xml
+.idea/workspace.xml
 .gradle/*
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
