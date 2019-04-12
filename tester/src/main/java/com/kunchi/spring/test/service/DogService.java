@@ -1,7 +1,7 @@
 package com.kunchi.spring.test.service;
 
 import com.kunchi.spring.test.BSUtil;
-import com.kunchi.spring.test.Dog;
+import com.kunchi.spring.test.entity.Dog;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,4 +1,4 @@
-package com.kunchi.spring.test;
+package com.kunchi.spring.test.entity;
 
 public class AppResponse {
 

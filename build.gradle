@@ -1,16 +1,37 @@
+//subprojects{
+//    apply plugin: 'java'
+//    apply plugin: 'idea'
+//
+//    version = '1.0.0-SANPSHOT' // 这个项目包的版本
+//
+//    // JVM 版本号
+//    sourceCompatibility = 1.8
+//    targetCompatibility = 1.8
+//
+//    // java编译的时候缺省状态下会因为中文字符而失败
+//    [compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+//
+//}
+
 plugins {
-    id 'java'
+    id "org.springframework.boot" version "2.0.4.RELEASE" apply false
+//    id "org.springframework.boot" version "2.0.4.RELEASE"
+
 }
 
-group 'com.kunchi.spring'
-version '1.0-SNAPSHOT'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-}
+// 只是定义这是一个java项目，这将会为你添加 Java 插件及其一些内置任务
+//apply plugin: 'java'
+//apply plugin: 'war'
+//
+//repositories{
+//    mavenCentral()
+//}
+//
+//sourceCompatibility = 1.8
+//targetCompatibility = 1.8
+//
+//version = '1.0.0'
+//dependencies{
+//    testCompile 'junit:junit:4.11'
+//}
+//

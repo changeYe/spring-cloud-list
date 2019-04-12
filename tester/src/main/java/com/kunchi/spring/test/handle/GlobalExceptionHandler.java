@@ -1,11 +1,13 @@
-package com.kunchi.spring.test;
+package com.kunchi.spring.test.handle;
 
+import com.kunchi.spring.test.entity.AppResponse;
+import com.kunchi.spring.test.BusinessException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @ControllerAdvice
@@ -21,7 +23,7 @@ public class GlobalExceptionHandler {
     public AppResponse handleExceptionContent(Exception e){
         logger.info(e.getMessage());
         AppResponse response = new AppResponse();
-        response.setCode(401);
+        response.setCode(HttpStatus.BAD_GATEWAY.value());
         response.setMsg("这里是异常的内容"+e.getMessage());
         return response;
     }
