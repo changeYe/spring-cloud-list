@@ -43,22 +43,17 @@ public class ZipController {
         return  ": OK";
     }
 
-    String source = "C:\\ygcl.zip";
-    String dest = "C:\\ygcl";
+    @PostMapping("/upload1.do")
+    public String uploadZip1(@RequestParam(value = "fileData") MultipartFile file) {
 
-    String password = "password";
-
-    public void ss() {
-        File file = new File(source);
         try {
-            ZipFile zipFile = new ZipFile(file);
-            zipFile.setFileNameCharset("UTF-8");
-
-
-        } catch (ZipException e) {
+            System.out.println(file.getBytes().length);
+        } catch (IOException e) {
             e.printStackTrace();
         }
+        return "hhh";
     }
+
 
 
 }

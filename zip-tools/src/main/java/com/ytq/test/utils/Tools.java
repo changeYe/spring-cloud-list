@@ -35,31 +35,32 @@ public class Tools {
 
         java.util.zip.ZipInputStream zis = new java.util.zip.ZipInputStream(inputStream);
         Map<String, byte[]> map = new HashMap<>();
-        ZipEntry ze = null;
+        ZipEntry ze;
+        while ((ze = zis.getNextEntry()) != null) {
 
-        while (true) {
-            ze = zis.getNextEntry();
             if(ze != null){
                 String name = ze.getName();
                 if(name == null||name.contains("__MACOSX")||ze.isDirectory()){
                     continue;
                 }
-                long size = ze.getSize();
-                byte[] extra = ze.getExtra();
-                long compressedSize = ze.getCompressedSize();
-                logger.info(name+"==name=="+size+"==size=="+compressedSize+"==compressedSize==extra="+extra.length);
+
+                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                byte[] buffer = new byte[10240];
+                int length = -1;
+                while ((length = zis.read(buffer, 0, buffer.length)) > -1) {
+                    byteArrayOutputStream.write(buffer, 0, length);
+                }
+                byte[] bytes = byteArrayOutputStream.toByteArray();
+                map.put(name, bytes);
+                byteArrayOutputStream.close();
+
+                logger.info( bytes.length+"==crc==");
 
             }else{
                 break;
             }
-            //            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-//            byte[] buffer = new byte[10240];
-//            int length = -1;
-//            while ((length = zis.read(buffer, 0, buffer.length)) > -1) {
-//                byteArrayOutputStream.write(buffer, 0, length);
-//            }
-//            map.put(name, byteArrayOutputStream.toByteArray());
-//            byteArrayOutputStream.close();
+
+//
         }
         zis.close();
         return map;

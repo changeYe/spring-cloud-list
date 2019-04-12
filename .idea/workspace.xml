@@ -2,50 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca39e88-234f-4e90-af8e-c3ed20c21366" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/guava-test/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guava-test/src/main/java/com/kunchi/guava/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-api/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-api/src/main/java/com/kunchi/spring/api/ISBApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-api/src/main/java/com/kunchi/spring/api/utils/ISBBeanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/dto/ISBDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/dto/ISBPageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/exception/ExceptionConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/exception/ISBException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/po/ISBPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/result/ISBResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/result/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/ss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-mq/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-mq/src/main/java/com/kunchi/spring/mq/Mq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-mq/src/main/java/com/kunchi/spring/mq/receiver/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kc-mq/src/main/java/com/kunchi/spring/mq/send/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gradle/study/Study.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/ZipApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/config/FileUploadConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/DeCompressUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/Tt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileHandleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/JstreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/ZipUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tester/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/AppResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/entity/AppResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/entity/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/handle/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Test1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/service/DogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/service/DogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/zip-tools/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java" beforeDir="false" afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -131,54 +99,6 @@
                 <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name=":mybatis-generator" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="com.baomidou:mybatis-plus:3.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name=":mybatis-generator" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="com.baomidou:mybatis-plus:3.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-                <item name="com.baomidou:mybatis-plus-extension:3.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name=":mybatis-generator" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="com.baomidou:mybatis-plus:3.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-                <item name="com.baomidou:mybatis-plus-extension:3.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-                <item name="com.baomidou:mybatis-plus-core:3.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name=":mybatis-generator" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="mysql:mysql-connector-java:8.0.13" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name=":mybatis-generator" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="org.apache.velocity:velocity-engine-core:2.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -188,101 +108,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GeneratorApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java">
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="294">
+              <caret line="54" column="46" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="54" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/ZipApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToolRar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="20">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteArrayOutputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/ByteArrayOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="45" column="21" lean-forward="true" selection-end-line="171" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JstreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/JstreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/ZipUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2889">
+              <caret line="25" column="25" lean-forward="true" selection-start-column="2" selection-end-line="198" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="32" column="21" selection-start-column="2" selection-end-line="211" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileHandleResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileHandleResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="940">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtractArchive.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/extract/ExtractArchive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomAccessStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/RandomAccessStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-59">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeCompressUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/DeCompressUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Raw.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/Raw.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-770">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadOnlyAccessInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/ReadOnlyAccessInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadOnlyAccessFile.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/ReadOnlyAccessFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomAccessFile.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/RandomAccessFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12958">
-              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputStreamReadOnlyAccessFile.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/InputStreamReadOnlyAccessFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -1516,7 +1444,7 @@
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="3817846144" />
         <entry key="$USER_HOME$/.gradle/init.gradle" value="1361914166" />
-        <entry key="$PROJECT_DIR$" value="18624799289000" />
+        <entry key="$PROJECT_DIR$" value="18624895321000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2991795591" />
         <entry key="$PROJECT_DIR$/demo/.gradle" value="0" />
@@ -1531,7 +1459,7 @@
         <entry key="$PROJECT_DIR$/mybatis-generator/build.gradle" value="759804178" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="666512180" />
         <entry key="$PROJECT_DIR$/tester/build.gradle" value="874995619" />
-        <entry key="$PROJECT_DIR$/zip-tools/build.gradle" value="1119206291" />
+        <entry key="$PROJECT_DIR$/zip-tools/build.gradle" value="2218407573" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1916,12 +1844,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/BusinessException.java" />
-        <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/DogService.java" />
-        <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/BSUtil.java" />
-        <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/AppResponse.java" />
         <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/ExceptionTest.java" />
         <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/controller/TestController.java" />
         <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/GlobalExceptionHandler.java" />
@@ -1929,7 +1851,6 @@
         <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Test1.java" />
         <option value="$PROJECT_DIR$/tester/build.gradle" />
         <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/handle/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java" />
         <option value="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/po/ISBPo.java" />
         <option value="$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/po/ISBPO.java" />
         <option value="$PROJECT_DIR$/project.txt" />
@@ -1957,16 +1878,23 @@
         <option value="$PROJECT_DIR$/zip-tools/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/config/FileUploadConfig.java" />
         <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools1.java" />
-        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java" />
         <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/ZipApplication.java" />
         <option value="$PROJECT_DIR$/mybatis-generator/build.gradle" />
         <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/entity/User.java" />
-        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java" />
-        <option value="$PROJECT_DIR$/zip-tools/build.gradle" />
         <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/DeCompressUtil.java" />
-        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java" />
         <option value="$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java" />
+        <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileHandleResponse.java" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/JstreeNode.java" />
+        <option value="$PROJECT_DIR$/zip-tools/build.gradle" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/Tt.java" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileController.java" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileService.java" />
+        <option value="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/ZipUtils.java" />
       </list>
     </option>
   </component>
@@ -1993,7 +1921,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2004,25 +1931,25 @@
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mybatis-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tester" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mybatis-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tester" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mybatis-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tester" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mybatis-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tester" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -2030,7 +1957,7 @@
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="mybatis-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tester" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -2089,7 +2016,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
@@ -2099,7 +2026,8 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
@@ -2123,102 +2051,13 @@
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="crc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="crypt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="extract" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="unsigned" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
-              <item name="rar" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2241,7 +2080,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GeneratorApp">
+  <component name="RunManager" selected="Application.ZipApplication">
     <configuration name="GeneratorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ytq.test.GeneratorApp" />
       <module name="mybatis-generator_main" />
@@ -2264,6 +2103,28 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kunchi.spring.test.Tester" />
+      <module name="tester_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kunchi.spring.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Tt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ytq.test.service.Tt" />
+      <module name="zip-tools_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ytq.test.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ZipApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ytq.test.ZipApplication" />
       <module name="zip-tools_main" />
@@ -2277,23 +2138,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="spring-cloud-list:tester [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/tester" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -2339,17 +2183,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ZipApplication" />
-      <item itemvalue="Gradle.spring-cloud-list:tester [clean]" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.ZipApplication" />
       <item itemvalue="Application.GeneratorApp" />
+      <item itemvalue="Application.Tester" />
+      <item itemvalue="Application.Tt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GeneratorApp" />
         <item itemvalue="Application.ZipApplication" />
+        <item itemvalue="Application.Tt" />
+        <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.GeneratorApp" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Gradle.spring-cloud-list:tester [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -2389,6 +2235,8 @@
       <workItem from="1554799218289" duration="778000" />
       <workItem from="1554893949378" duration="2155000" />
       <workItem from="1554962471077" duration="2466000" />
+      <workItem from="1555049820759" duration="2385000" />
+      <workItem from="1555056460546" duration="4518000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1550110879747</created>
@@ -2411,11 +2259,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550214974192</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="controllerAdvice+Exception 异常统一处理">
+      <created>1555049863418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555049863418</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64794000" />
+    <option name="totallyTimeSpent" value="71697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="0" />
@@ -2428,34 +2283,34 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32097003" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.14122681" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="7" sideWeight="0.5019608" side_tool="true" weight="0.26856714" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30813125" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2639087" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32938075" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3281027" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4208274" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49923077" weight="0.40711462" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21968617" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49923077" weight="0.2296719" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.50065875" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49803922" visible="true" weight="0.32564843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49803922" visible="true" weight="0.39625362" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.32786885" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.3278098" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -2511,76 +2366,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.9.RELEASE/a7aea1dd2c5cde050d2d62833ec397d899a00854/spring-core-4.0.9.RELEASE.jar!/org/springframework/cglib/beans/BeanMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kc-api/src/main/java/com/kunchi/spring/api/ISBApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kc-model/src/main/java/com/kunchi/spring/model/exception/ISBException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kc-mq/src/main/java/com/kunchi/spring/mq/Mq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kc-mq/src/main/java/com/kunchi/spring/mq/send/Send.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kc-mq/src/main/java/com/kunchi/spring/mq/receiver/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kc-api/src/main/java/com/kunchi/spring/api/utils/ISBBeanUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="820">
@@ -2627,13 +2412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.lingala.zip4j/zip4j/1.3.2/b2a62723195cf14964e7937f60da7c4daa0f61be/zip4j-1.3.2-sources.jar!/net/lingala/zip4j/core/ZipFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2693,37 +2471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/ZipApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2779,27 +2530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zip-tools/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -2807,19 +2537,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/DeCompressUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/Raw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
+        <state relative-caret-position="180">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
@@ -2833,56 +2553,209 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/ReadOnlyAccessFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="220">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/RandomAccessFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12958">
+        <state relative-caret-position="680">
           <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/InputStreamReadOnlyAccessFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="420">
           <caret line="23" column="40" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/extract/ExtractArchive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="440">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.junrar/junrar/0.7/a2a861c38317e54e85798c83c9652d23f72e95aa/junrar-0.7-sources.jar!/com/github/junrar/io/RandomAccessStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
+        <state relative-caret-position="240">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="120">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/zip/ZipEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.lingala.zip4j/zip4j/1.3.2/b2a62723195cf14964e7937f60da7c4daa0f61be/zip4j-1.3.2-sources.jar!/net/lingala/zip4j/core/ZipFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4722">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/zip/ZipInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="195" column="21" selection-start-line="195" selection-start-column="21" selection-end-line="195" selection-end-column="21" />
+          <folding>
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/Tt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/DeCompressUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471">
+          <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/ZipApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="32" column="21" selection-start-column="2" selection-end-line="211" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileHandleResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="45" column="21" lean-forward="true" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/JstreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/ZipUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2889">
+          <caret line="25" column="25" lean-forward="true" selection-start-column="2" selection-end-line="198" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="54" column="46" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="54" selection-end-column="46" />
         </state>
       </provider>
     </entry>
