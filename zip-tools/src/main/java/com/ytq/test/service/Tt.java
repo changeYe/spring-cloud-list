@@ -1,5 +1,9 @@
 package com.ytq.test.service;
 
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 import org.apache.commons.io.FileUtils;
 
 /**
@@ -15,5 +19,10 @@ public class Tt {
         String userDirectoryPath = FileUtils.getUserDirectoryPath();
         System.out.println(userDirectoryPath);
     }
+
+
+    ExecutorService executorService = Executors.newFixedThreadPool(5);
+
+
 
 }

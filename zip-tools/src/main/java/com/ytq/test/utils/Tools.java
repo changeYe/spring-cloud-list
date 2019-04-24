@@ -38,31 +38,31 @@ public class Tools {
         ZipEntry ze;
         while ((ze = zis.getNextEntry()) != null) {
 
-            if(ze != null){
+
                 String name = ze.getName();
                 if(name == null||name.contains("__MACOSX")||ze.isDirectory()){
                     continue;
                 }
 
-                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                byte[] buffer = new byte[10240];
-                int length = -1;
-                while ((length = zis.read(buffer, 0, buffer.length)) > -1) {
-                    byteArrayOutputStream.write(buffer, 0, length);
-                }
-                byte[] bytes = byteArrayOutputStream.toByteArray();
-                map.put(name, bytes);
-                byteArrayOutputStream.close();
+            byte[] bytes1 = org.apache.commons.io.IOUtils.toByteArray(zis);
+//
+//            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+//                byte[] buffer = new byte[10240];
+//                int length = -1;
+//                while ((length = zis.read(buffer, 0, buffer.length)) > -1) {
+//                    byteArrayOutputStream.write(buffer, 0, length);
+//                }
+//                byte[] bytes = byteArrayOutputStream.toByteArray();
+                map.put(name, bytes1);
+//                byteArrayOutputStream.close();
 
-                logger.info( bytes.length+"==crc==");
+                logger.info( bytes1.length+"==crc==");
 
-            }else{
-                break;
-            }
+
 
 //
         }
-        zis.close();
+
         return map;
     }
 

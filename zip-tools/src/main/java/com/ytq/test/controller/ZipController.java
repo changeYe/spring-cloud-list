@@ -4,10 +4,13 @@ import java.io.File;
 import java.io.IOException;
 
 import com.ytq.test.entity.User;
+import com.ytq.test.utils.ToolRar;
 import com.ytq.test.utils.Tools;
+import javafx.scene.control.ToolBar;
 import net.lingala.zip4j.core.ZipFile;
 import net.lingala.zip4j.exception.ZipException;
 import net.lingala.zip4j.model.FileHeader;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -43,10 +46,14 @@ public class ZipController {
         return  ": OK";
     }
 
+    @Autowired
+    private ToolRar toolBar;
+
     @PostMapping("/upload1.do")
     public String uploadZip1(@RequestParam(value = "fileData") MultipartFile file) {
 
         try {
+            toolBar.ss();
             System.out.println(file.getBytes().length);
         } catch (IOException e) {
             e.printStackTrace();
