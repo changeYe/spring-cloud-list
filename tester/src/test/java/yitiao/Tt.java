@@ -1,3 +1,5 @@
+package yitiao;
+
 import java.io.UnsupportedEncodingException;
 import java.security.KeyFactory;
 import java.security.Security;
@@ -146,14 +148,21 @@ public class Tt {
             System.out.println(sb.toString());
             //4.进⾏行行签名
             byte[] content = sb.toString().getBytes("utf-8");
-            String sig = sign(DEMO_PRIKEY, content);
+            String sig = sign(SecretKeyUtils.privateKeyProduct, content);
             System.out.println("_sig=" + sig);
             //5.模拟服务端签名验证
-            boolean verify = verify(DEMO_PUBKEY, Base64Util.decode(sig), content);
+            boolean verify = verify(SecretKeyUtils.publicKeyProduct, Base64Util.decode(sig), content);
             System.out.println(verify);
             assertTrue(verify);
         }
 
 
+        @Test
+    public void ss(){
+            Calendar calendar = Calendar.getInstance();
+
+            calendar.set(2018,11,5);
+            System.out.println(calendar.getTime().getTime());
+        }
 
 }

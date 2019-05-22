@@ -1,21 +1,24 @@
-//subprojects{
-//    apply plugin: 'java'
-//    apply plugin: 'idea'
-//
-//    version = '1.0.0-SANPSHOT' // 这个项目包的版本
-//
-//    // JVM 版本号
-//    sourceCompatibility = 1.8
-//    targetCompatibility = 1.8
-//
-//    // java编译的时候缺省状态下会因为中文字符而失败
-//    [compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
-//
-//}
-
 plugins {
-    id "org.springframework.boot" version "2.0.4.RELEASE" apply false
-//    id "org.springframework.boot" version "2.0.4.RELEASE"
+    id "org.springframework.boot" version "2.1.4.RELEASE" apply false
+}
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'io.spring.dependency-management'
+
+    version = '1.0.0-SANPSHOT' // 这个项目包的版本
+
+    // JVM 版本号
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    ext {
+        springCloudVersion = "Finchley.RELEASE"
+        springBootVersion = "2.1.4.RELEASE"
+    }
+
+    // java编译的时候缺省状态下会因为中文字符而失败
+    [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
 
 }
 

@@ -1,4 +1,4 @@
-/**
+package yitiao; /**
  * @author yuantongqin
  * 2019/5/7
  */
@@ -35,21 +35,16 @@ import org.springframework.http.converter.json.GsonBuilderUtils;
 public class testSdk {
 
 
-    public static final String privateKey = "MIICWwIBAAKBgQDOw5HI+Oe4ZQeucTUWEtBW+orwOush4wMsNJ3UwVxJMftJEm1c" +
-                                            "H4ETlpnVoiM0WL38Za6KqyaGblaJAzhAhOZijd/5zOCFjdnjJh49+P7sRHIQOXww" +
-                                            "CT33RU0kY4vi6ULcAOhGkdkYxn0Lr4OzSX7iM0MPlz81WYAxxbC6Lx/ojQIDAQAB" +
-                                            "AoGANo08yoR5RppJQ4oU0oUWOMyTmbxBy0gEz0X2mmqFub4ZKXdWKScavBtQ7R+B" +
-                                            "IE+FmLEPMwDjAjbcV/vkfIlT6xUYzHu0l+zjLkQWqMZbSmuuxfdinTWaeFz+vyBR" +
-                                            "BrJr/u8HXQyb1IdzfXeoBWC0hAQGSWZ0IktZQOgY0APSeTUCQQD0hrYbzCTNQgwo" +
-                                            "Nyb3A0anvG3zUAvnwGDm4NUmwj7YibnbgTpSP/0nXfM3sGtXRxiqvn+UgpS2SNcG" +
-                                            "mssfBcq/AkEA2HdAZb+m882rgR+8wPyCSXDtYSdwY+H36iecV84kOpy3cXun4hL/" +
-                                            "pmfKj1gGkdJUfRkwBDHUqBQ/Qy77n48bswJAICeexuT/aeZnhtpJy22o2uHSa455" +
-                                            "Ik6P74xdOy2L6hmiURUbQDmd5pFaLFaMpvt4aOuIB1VsjNPjQsEUOM4gLQJAC9/G" +
-                                            "xY4Uz2zpyoR+Kyvuza6HJvwt2xzLJ6oSlnJ1ZE2ydmQtGmamZW9uGhzfB2K9Rbt6" +
-                                            "+c/t9WZe7gWGwgLspwJALahUjiWowFntqZfwk+RjFl7UWFj5r3cqDsBHVkFSdQ9O" +
-                                            "AHknqMz4pa0SQiuMlNhEDm3lzf8mviDFEaAz1MqlPA==";
+    public static final String privateKey = SecretKeyUtils.privateKeyProduct;
+    public static final String publicKey = SecretKeyUtils.publicKeyProduct;
 
-    public static final String tpId = "889041f11443377c";
+
+    public static final String tpIdTest = "889041f11443377c";
+    public static final String tpIdProduct = "2afcb3083186e2a1";
+    public static final String tpId = tpIdProduct;
+    public static final String urlTest = "https://open-test.yit.com/apigw/m.api";
+    public static final String urlProduct = "https://open.yit.com/apigw/m.api";
+    public static final String url = urlProduct;
 
 
 
@@ -69,16 +64,16 @@ public class testSdk {
         for (int i = 0; i < size; i++) {
             ids[i] = list.get(i).id;
         }
-        confirmDownload(ids);
+//        confirmDownload(ids);
 
         //2。线下快递发货
 
         //3。线上将快递信息传给一条 两种方式二选一，
-        test_sendLogisticsByItemId();
-        test_sendLogisticsByVenderSkuCode();
-
-        //4。（正常发货流程不需要调这个接口）根据时间段下载订单，忽略是否已下载过，可以用于定时补偿检查，以免漏处理订单
-        getOrderByPeriod();
+//        test_sendLogisticsByItemId();
+//        test_sendLogisticsByVenderSkuCode();
+//
+//        //4。（正常发货流程不需要调这个接口）根据时间段下载订单，忽略是否已下载过，可以用于定时补偿检查，以免漏处理订单
+//        getOrderByPeriod();
     }
 
     /**
@@ -103,11 +98,12 @@ public class testSdk {
 
 
     private ApiAccessor getApiAccessor() {
+
         ApiContext context = ApiContext.getCurrent();
         SDKConfig.isDebug = true;
-        context.setThirdPartyId(tpId);
-        context.setClientPK("", privateKey);
-        ApiAccessor apiAccessor = new ApiAccessor(context, 3000, 3000, "https://open-test.yit.com/apigw/m.api");
+        context.setThirdPartyId(tpIdProduct);
+        context.setClientPK(publicKey, privateKey);
+        ApiAccessor apiAccessor = new ApiAccessor(context, 3000, 3000, url);
         return apiAccessor;
     }
 
@@ -168,20 +164,17 @@ public class testSdk {
         param.size = 20;
         Calendar calendar = Calendar.getInstance();
 
-//        2018-11-02 12:37:45
-
-        calendar.set(2018,10,1);
-
+        calendar.set(2018,10,3);
         param.startDate = calendar.getTime();
         System.out.println(calendar.getTime());
-//        calendar.set(2018,11,29);
-//        System.out.println(calendar.getTime());
-//        param.endDate = calendar.getTime();  //最多查询30天时间间隔
-        param.status = "CONFIRMED";
+        calendar.set(2018,10,29);
+        System.out.println(calendar.getTime());
+        param.endDate = calendar.getTime();  //最多查询30天时间间隔
+        param.status = null;
         LogisticsOpenApi_GetOrderByPeriod getOrderByPeriod = new LogisticsOpenApi_GetOrderByPeriod(param);
         ApiContext context = ApiContext.getCurrent();
         context.setThirdPartyId(tpId);
-        context.setClientPK("", privateKey);
+        context.setClientPK(publicKey, privateKey);
         ApiAccessor apiAccessor = getApiAccessor();
 
         ServerResponse serverResponse = apiAccessor.fillApiResponse(new BaseRequest<?>[]{getOrderByPeriod});
