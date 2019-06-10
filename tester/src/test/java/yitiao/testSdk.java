@@ -91,12 +91,6 @@ public class testSdk {
      * @return
      */
 
-    /**
-     *
-     * @return
-     */
-
-
     private ApiAccessor getApiAccessor() {
 
         ApiContext context = ApiContext.getCurrent();
