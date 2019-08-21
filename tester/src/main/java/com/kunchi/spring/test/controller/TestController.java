@@ -1,6 +1,7 @@
 package com.kunchi.spring.test.controller;
 
 import com.kunchi.spring.test.service.DogService;
+import org.hibernate.validator.constraints.Length;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +15,7 @@ public class TestController {
     private DogService service;
 
     @GetMapping("getdog")
-    public String getDog(String name){
+    public String getDog(@Length(max = 10) String name){
         return name+":过来";
     }
 
