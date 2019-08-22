@@ -2,61 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca39e88-234f-4e90-af8e-c3ed20c21366" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-array/线性结构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/ParserConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Ta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast/src/test/java/Tt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/MqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/Ta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/HelloDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Ta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Tb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/exception/ControllerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tester/src/test/java/yitiao/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tester/src/test/java/yitiao/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/Tt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/simple/Ta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/simple/produce/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/DirectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/producer/RabbitProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-array/src/main/java/timecomplexityanalysis/TimeComplexityAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-array/src/main/java/timecomplexityanalysis/TimeComplexityAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/main/java/com/geektime/spring/geektimetx/GeektimeTxApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/main/java/com/geektime/spring/geektimetx/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/main/java/com/geektime/spring/geektimetx/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/main/java/com/geektime/spring/geektimetx/po/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/main/java/com/geektime/spring/geektimetx/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/main/java/com/geektime/spring/geektimetx/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/test/java/com/geektime/spring/geektimetx/GeektimeTxApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime-tx/src/test/java/com/geektime/spring/geektimetx/Tt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime/src/main/java/com/geektime/spring/geektime/GeektimeApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime/src/main/java/com/geektime/spring/geektime/chapter5/ReactorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime/src/main/java/com/geektime/spring/geektime/config/TestConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime/src/main/java/com/geektime/spring/geektime/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime/src/test/java/com/geektime/spring/geektime/GeektimeApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geektime/src/test/java/com/geektime/spring/geektime/Tt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tester/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/Tt.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/test/java/yitiao/Tt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/testSdk.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/test/java/yitiao/testSdk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/testSdk2.java" beforeDir="false" afterPath="$PROJECT_DIR$/tester/src/test/java/yitiao/testSdk2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-javapai/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-javapai/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -109,6 +68,9 @@
     <ignored path="$PROJECT_DIR$/fast/.gradle/" />
     <ignored path="$PROJECT_DIR$/fast/build/" />
     <ignored path="$PROJECT_DIR$/fast/out/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-javapai/.gradle/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-javapai/build/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-javapai/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,11 +135,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Tt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fast/src/test/java/Tt.java">
+      <file leaf-file-name="RabbitConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/RabbitConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="102">
+              <caret line="55" column="80" selection-start-line="55" selection-start-column="80" selection-end-line="55" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1276#1277#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#1753#1754#0" expanded="true" />
+                <element signature="e#1843#1844#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FanoutConsumer2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FanoutConsumer1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RabbitProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/producer/RabbitProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,89 +195,59 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VdataUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/HelloDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tester/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/exception/ControllerException.java">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratorApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding>
-                <element signature="e#4476#4776#0" expanded="true" />
-                <element signature="e#4611#4627#0" expanded="true" />
-                <element signature="e#4775#4776#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11040">
-              <caret line="579" column="15" selection-start-line="579" selection-start-column="15" selection-end-line="579" selection-end-column="15" />
-              <folding>
-                <element signature="e#26957#26958#0" expanded="true" />
-                <element signature="e#27022#27023#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2140">
-              <caret line="153" column="40" selection-start-line="153" selection-start-column="40" selection-end-line="153" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/BaseStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReferencePipeline.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/ReferencePipeline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractPipeline.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/AbstractPipeline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2620">
-              <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sink.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/Sink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
+            <state relative-caret-position="-334" />
           </provider>
         </entry>
       </file>
@@ -371,6 +351,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":quartz-demo" />
                 <option name="path" value="$PROJECT_DIR$/quartz-demo" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":rabbitmq-javapai" />
+                <option name="path" value="$PROJECT_DIR$/rabbitmq-javapai" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":spring-rabbitmq" />
@@ -1529,6 +1513,142 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/rabbitmq-javapai">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':rabbitmq-javapai'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':rabbitmq-javapai'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':rabbitmq-javapai'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':rabbitmq-javapai'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':rabbitmq-javapai'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':rabbitmq-javapai'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':rabbitmq-javapai'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':rabbitmq-javapai'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':rabbitmq-javapai'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':rabbitmq-javapai'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/spring-rabbitmq">
           <value>
             <list>
@@ -1973,7 +2093,7 @@
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="3817846144" />
         <entry key="$USER_HOME$/.gradle/init.gradle" value="1361914166" />
-        <entry key="$PROJECT_DIR$" value="21808893972000" />
+        <entry key="$PROJECT_DIR$" value="23377022819000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/algorithm-array/build.gradle" value="2799115489" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2027848606" />
@@ -1997,7 +2117,8 @@
         <entry key="$PROJECT_DIR$/kshop-gataway/build.gradle" value="152915979" />
         <entry key="$PROJECT_DIR$/mybatis-generator/build.gradle" value="759804178" />
         <entry key="$PROJECT_DIR$/quartz-demo/build.gradle" value="2047324777" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3112434106" />
+        <entry key="$PROJECT_DIR$/rabbitmq-javapai/build.gradle" value="439822364" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="249486310" />
         <entry key="$PROJECT_DIR$/spring-rabbitmq/build.gradle" value="51170832" />
         <entry key="$PROJECT_DIR$/tester/build.gradle" value="724358976" />
         <entry key="$PROJECT_DIR$/zip-tools/build.gradle" value="2218407573" />
@@ -2316,6 +2437,29 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/rabbitmq-javapai">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.4.RELEASE/dece1d0f12fe88e696ea11656d4595825ab61fc7/spring-boot-gradle-plugin-2.0.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.4.RELEASE/b18a052691327096ba583b11d5fc052123500db3/spring-boot-gradle-plugin-2.0.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.4.RELEASE/75fc6606e4fd8caa25ed1def196005d8668f00f3/spring-boot-loader-tools-2.0.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.4.RELEASE/24a1d9eac0090e12d20678cfbf7299d81d63ea7/spring-boot-loader-tools-2.0.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/d6c42859b24b62034b2a5e0db5ea12c688493d48/dependency-management-plugin-1.0.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/43a23e357fa7b187c261520914c0b001ea1a62a2/commons-compress-1.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.8.RELEASE/a85fa9dfe4cb9c643ca3775279c8a1b50cd9e0b3/spring-core-5.0.8.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.8.RELEASE/dc39c49e3246cdf73d3786ac41119140aed3fa08/spring-core-5.0.8.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.8.RELEASE/b2d3223c5aa039d4046c8664b9a062e99b2d29fe/spring-jcl-5.0.8.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.8.RELEASE/a1fa8fb560fb252321776e16bc9ac8201af4ef5e/spring-jcl-5.0.8.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/rabbitmq-javapai" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/spring-rabbitmq">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -2569,15 +2713,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tester/src/test/java/yitiao/Item.java" />
-        <option value="$PROJECT_DIR$/tester/src/test/java/yitiao/User.java" />
-        <option value="$PROJECT_DIR$/tester/build.gradle" />
-        <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/geektime-tx/src/main/java/com/geektime/spring/geektimetx/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/geektime-tx/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/geektime/build.gradle" />
-        <option value="$PROJECT_DIR$/geektime-tx/src/main/java/com/geektime/spring/geektimetx/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/geektime-tx/src/test/java/com/geektime/spring/geektimetx/Tt.java" />
         <option value="$PROJECT_DIR$/geektime-tx/build.gradle" />
         <option value="$PROJECT_DIR$/geektime-tx/src/test/java/com/geektime/spring/geektimetx/XiaoHongShu.java" />
         <option value="$PROJECT_DIR$/algorithm-array/src/main/java/timecomplexityanalysis/TimeComplexityAnalysis.java" />
@@ -2589,10 +2724,8 @@
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/spring/mq/controller/TestController.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/spring/mq/Application.java" />
-        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/MqConfig.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/exception/ControllerException.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java" />
-        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/Ta.java" />
         <option value="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Array.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
@@ -2606,9 +2739,7 @@
         <option value="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Main.java" />
         <option value="$PROJECT_DIR$/fast/build.gradle" />
         <option value="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Application.java" />
-        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/fast/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/build.gradle" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Ta.java" />
@@ -2620,6 +2751,19 @@
         <option value="$PROJECT_DIR$/fast/src/test/java/Tt.java" />
         <option value="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java" />
         <option value="$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-javapai/build.gradle" />
+        <option value="$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/simple/produce/Producer.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/MqConfig.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/RabbitConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/DirectConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/TopicConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer1.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer2.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/producer/RabbitProducer.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/RabbitConfig.java" />
       </list>
     </option>
   </component>
@@ -2649,7 +2793,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -2660,33 +2803,90 @@
             </path>
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:fastjson:1.2.58" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:fastjson:1.2.58" type="70bed36:NamedLibraryElementNode" />
-              <item name="fastjson-1.2.58.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:fastjson:1.2.58" type="70bed36:NamedLibraryElementNode" />
-              <item name="fastjson-1.2.58.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="fastjson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.alibaba:fastjson:1.2.58" type="70bed36:NamedLibraryElementNode" />
-              <item name="fastjson-1.2.58.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="fastjson" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
@@ -2706,56 +2906,12 @@
               <item name="lombok-1.18.2.jar" type="462c0819:PsiDirectoryNode" />
               <item name="lombok" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bind" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2772,6 +2928,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ytq.m.consumer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tester/libs" />
     </key>
@@ -2788,7 +2947,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GeneratorApp">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="GeneratorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ytq.test.GeneratorApp" />
       <module name="mybatis-generator_main" />
@@ -3091,7 +3250,8 @@
       <workItem from="1564663440046" duration="1841000" />
       <workItem from="1564813293113" duration="2077000" />
       <workItem from="1566201408079" duration="768000" />
-      <workItem from="1566375781795" duration="200000" />
+      <workItem from="1566375781795" duration="830000" />
+      <workItem from="1566454102351" duration="6586000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1550110879747</created>
@@ -3149,7 +3309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560132868434</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rabbit">
+      <created>1566379457324</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566379457324</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3185,7 +3352,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279234000" />
+    <option name="totallyTimeSpent" value="286450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3213,17 +3380,18 @@
       <window_info id="Structure" order="8" sideWeight="0.51278406" side_tool="true" weight="0.29755044" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.234375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30397728" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49927953" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3252841" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49927953" weight="0.32954547" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38210228" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4985591" weight="0.26704547" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4985591" visible="true" weight="0.5198864" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49927953" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49927953" weight="0.30539772" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4872159" visible="true" weight="0.31268013" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4872159" visible="true" weight="0.26224783" />
       <window_info anchor="bottom" id="Problems" order="9" weight="0.32954547" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.3299712" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -3236,8 +3404,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3252841" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.34517047" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.34517047" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -3261,7 +3428,7 @@
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3281027" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
-      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49923077" weight="0.14265335" />
@@ -3275,7 +3442,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.50927246" side_tool="true" weight="0.2744957" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40228245" />
     </layout-to-restore>
@@ -3320,7 +3487,8 @@
     <MESSAGE value="zip 压缩包上传" />
     <MESSAGE value="极客时间添加" />
     <MESSAGE value="Quartz定时器测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quartz定时器测试" />
+    <MESSAGE value="rabbit" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3506,20 +3674,8 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java</url>
-          <line>28</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
@@ -3643,153 +3799,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/JSONAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="529" column="26" selection-start-line="529" selection-start-column="26" selection-end-line="529" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/serializer/AnnotationSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/HelloDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/javassist/util/proxy/Proxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/javassist/util/proxy/ProxyObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/parser/ParserConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="906" column="10" lean-forward="true" selection-start-line="906" selection-start-column="10" selection-end-line="906" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Tb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Ta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="789" column="26" selection-start-line="789" selection-start-column="26" selection-end-line="789" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/ParserConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Ta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/serializer/SerializeBeanInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/util/TypeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="1619" column="36" selection-start-line="1619" selection-start-column="36" selection-end-line="1619" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/util/FieldInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/serializer/JSONSerializableSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/serializer/JSONAwareSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/serializer/ASMSerializerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/serializer/ObjectSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.58/e6f6e31a3fb2e6d456c9989f6c6866b73f7968c2/fastjson-1.2.58-sources.jar!/com/alibaba/fastjson/serializer/JavaBeanSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -3941,10 +3950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11040">
           <caret line="579" column="15" selection-start-line="579" selection-start-column="15" selection-end-line="579" selection-end-column="15" />
-          <folding>
-            <element signature="e#26957#26958#0" expanded="true" />
-            <element signature="e#27022#27023#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4048,9 +4053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4082,10 +4084,187 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-javapai/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/Tt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/simple/Ta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/simple/produce/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/MqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" selection-start-line="12" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.5.RELEASE/spring-amqp-2.0.5.RELEASE.jar!/org/springframework/amqp/core/BindingBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
-            <element signature="e#4476#4776#0" expanded="true" />
-            <element signature="e#4611#4627#0" expanded="true" />
-            <element signature="e#4775#4776#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.5.RELEASE/spring-rabbit-2.0.5.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.5.RELEASE/spring-rabbit-2.0.5.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/DirectConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/TopicConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/Ta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/HelloDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/producer/RabbitProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="55" column="80" selection-start-line="55" selection-start-column="80" selection-end-line="55" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1753#1754#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
           </folding>
         </state>
       </provider>
