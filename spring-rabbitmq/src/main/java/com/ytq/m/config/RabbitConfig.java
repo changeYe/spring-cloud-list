@@ -45,6 +45,10 @@ public class RabbitConfig {
     public Queue fanoutQueue1(){
         return new Queue("fanoutQueue1");
     }
+    @Bean
+    public Queue fanoutQueue2(){
+        return new Queue("fanoutQueue2");
+    }
 
 
     @Bean
@@ -58,6 +62,10 @@ public class RabbitConfig {
 
     @Bean
     public Binding fanoutBinding1(FanoutExchange fanoutExchange, @Qualifier("fanoutQueue1") Queue queue){
+        return BindingBuilder.bind(queue).to(fanoutExchange);
+    }
+    @Bean
+    public Binding fanoutBinding2(FanoutExchange fanoutExchange, @Qualifier("fanoutQueue2") Queue queue){
         return BindingBuilder.bind(queue).to(fanoutExchange);
     }
 

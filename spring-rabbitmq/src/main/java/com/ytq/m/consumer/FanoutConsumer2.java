@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * 2019/8/22
  */
 @Component
-@RabbitListener(queues = {"fanoutQueue1"})
+@RabbitListener(queues = {"fanoutQueue2"})
 public class FanoutConsumer2 {
 
 

@@ -18,7 +18,7 @@ public class RabbitProducer {
         rabbitTemplate.convertAndSend("direct_exchange","routingDirect","直连交换机发送的消息");
         rabbitTemplate.convertAndSend("topic_exchange","routingTopic","主题交换机发送的消息");
         rabbitTemplate.convertAndSend("fanout_exchange","","广播交换机发送的消息1");
-        rabbitTemplate.convertAndSend("fanout_exchange","","广播交换机发送的消息2");
+//        rabbitTemplate.convertAndSend("fanout_exchange","","广播交换机发送的消息2");
     }
 
 }
