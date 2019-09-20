@@ -24,4 +24,9 @@ public class HelloDTO extends Ta{
 
     private String phone;
 
+    @NotNull
+    private Tb item;
+
+
+
 }

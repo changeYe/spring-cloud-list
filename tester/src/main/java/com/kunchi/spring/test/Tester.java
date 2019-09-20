@@ -1,5 +1,7 @@
 package com.kunchi.spring.test;
 
+import javax.servlet.http.HttpServletResponse;
+
 import java.util.regex.Pattern;
 
 import org.springframework.http.HttpStatus;
@@ -16,6 +18,8 @@ public class Tester {
         System.out.println(key);
         boolean matches = Pattern.matches("^\\d{2,14}-(web|mob|main)[1-5].(png|jpg)$", name);
         System.out.println(matches);
+
+
 
     }
 

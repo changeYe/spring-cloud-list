@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/algorithm-array" />
+            <option value="$PROJECT_DIR$/excel-export" />
             <option value="$PROJECT_DIR$/fast" />
             <option value="$PROJECT_DIR$/fastjson" />
             <option value="$PROJECT_DIR$/guava-test" />
