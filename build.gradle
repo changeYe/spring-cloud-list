@@ -1,6 +1,7 @@
 plugins {
     id "org.springframework.boot" version "2.0.4.RELEASE" apply false
 }
+
 subprojects {
     apply plugin: 'java'
     apply plugin: 'idea'
@@ -16,6 +17,22 @@ subprojects {
         springCloudVersion = "Finchley.RELEASE"
         springBootVersion = "2.0.4.RELEASE"
     }
+
+    idea {
+        module {
+            // if you hate browsing Javadoc
+            downloadJavadoc = false
+
+            // and love reading sources :)
+            downloadSources = true
+        }
+    }
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
 
     // java编译的时候缺省状态下会因为中文字符而失败
     [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
@@ -38,3 +55,5 @@ subprojects {
 //    testCompile 'junit:junit:4.11'
 //}
 //
+
+

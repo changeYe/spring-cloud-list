@@ -2,17 +2,22 @@ package com.ytq;
 
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.util.function.Function;
 
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ytq.m.Application;
+import com.ytq.m.controller.TestController;
 import com.ytq.m.entity.HelloDTO;
+import com.ytq.m.po.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.ApplicationContext;
+import org.springframework.core.io.support.SpringFactoriesLoader;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
@@ -62,4 +67,17 @@ public class Ta {
         }
     }
 
+    public void ssa(){
+        Function<String,String> f = new Function<String,String>() {
+
+            @Override
+            public String apply(String s) {
+                return null;
+            }
+        };
+
+//        SpringFactoriesLoader.loadFactories();
+
+
+    }
 }

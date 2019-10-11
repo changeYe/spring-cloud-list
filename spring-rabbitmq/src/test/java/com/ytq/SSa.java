@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.ytq.m.annotation.BigDecimalFormat;
+import com.ytq.m.annotation.DecimalSerialize;
+import org.junit.Test;
 
 /**
  * @author yuantongqin
@@ -14,7 +16,7 @@ public class SSa {
     @BigDecimalFormat("###.##")
     private BigDecimal age;
 
-    @JsonSerialize()
+    @JsonSerialize(using = DecimalSerialize.class)
     private String name;
 
     public BigDecimal getAge() {
@@ -31,5 +33,13 @@ public class SSa {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Test
+    public void ss(){
+        String name = Ta.class.getName();
+        String simpleName = Ta.class.getSimpleName();
+        System.out.println(name);
+        System.out.println(simpleName);
     }
 }

@@ -1,5 +1,7 @@
 package com.ytq.m.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 /**
  * @author yuantongqin
  * 2019/7/31
@@ -13,6 +15,7 @@ public class Ta {
         }catch (Exception e){
             e.printStackTrace();
         }
+
     }
 
     public void ssa(){

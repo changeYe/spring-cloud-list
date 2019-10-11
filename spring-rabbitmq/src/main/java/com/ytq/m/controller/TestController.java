@@ -1,5 +1,6 @@
 package com.ytq.m.controller;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
@@ -9,7 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.core.JsonFactory;
+import com.ytq.m.config.InitAware;
 import com.ytq.m.entity.HelloDTO;
+import com.ytq.m.entity.Tb;
 import com.ytq.m.producer.RabbitProducer;
 import com.ytq.m.validate.VdataUtil;
 import org.apache.poi.hssf.usermodel.HSSFCell;
@@ -23,12 +26,17 @@ import org.apache.poi.ss.util.CellRangeAddress;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.context.request.RequestAttributes;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
+import org.yaml.snakeyaml.events.Event;
 
 /**
  * @author yuantongqin
@@ -45,14 +53,41 @@ public class TestController {
     @Autowired
     private RabbitProducer rabbitProducer;
 
-    @PostMapping("/hello.do")
-    public String hello(@Validated @RequestBody HelloDTO name){
+    @Autowired
+    private ApplicationContext applicationContext;
+
+
+    @GetMapping("/hello.do")
+    public String hello(String name){
 //        VdataUtil<HelloDTO> vdataUtil = new VdataUtil();
 //        vdataUtil.verification(name);
         //发送消息
 //        rabbitProducer.send();
+        InitAware aware = applicationContext.getBean(InitAware.class);
+        aware.sayHello();
+
+        RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();
+        String ip = null;
+        if(requestAttributes != null) {
+            ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) requestAttributes;
+            HttpServletRequest request = servletRequestAttributes.getRequest();
+            ip = getIp(request);
+        }
+        System.out.println(ip+"==ip");
         logger.info("==name:"+name);
         return "你好:"+name;
+    }
+
+    protected String getIp(HttpServletRequest request){
+        String ip = request.getHeader("x-forwarded-for");
+        if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)){
+            ip = request.getHeader("Proxy-Client-IP");
+        } if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)){
+            ip = request.getHeader("WL-Proxy-Client-IP");
+        } if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)){
+            ip = request.getRemoteAddr();
+        }
+        return ip;
     }
 
     @GetMapping("/export.do")
