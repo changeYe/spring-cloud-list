@@ -10,8 +10,17 @@
 gradle/*
 .idea/*
 .idea/gradle.xml
+.idea/misc.xml
 .idea/workspace.xml
+.idea/vcs.xml
+
+.idea/modules/*
+.idea/inspectionProfiles/*
+.idea/**/workspace.xml
+.idea/**/*
+
 .gradle/*
+.gradle/buildOutputCleanup/*
 .gradle/**
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
