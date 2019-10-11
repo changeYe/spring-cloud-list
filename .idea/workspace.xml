@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca39e88-234f-4e90-af8e-c3ed20c21366" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ca39e88-234f-4e90-af8e-c3ed20c21366" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -96,24 +94,30 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Ta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
+            <state relative-caret-position="580">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ta.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Ta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
+            <state relative-caret-position="160">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="e#449#463#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dev004.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Dev004.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -121,8 +125,8 @@
       <file leaf-file-name="ParserConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/ParserConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -2110,7 +2114,7 @@
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="3817846144" />
         <entry key="$USER_HOME$/.gradle/init.gradle" value="1361914166" />
-        <entry key="$PROJECT_DIR$" value="24948833643000" />
+        <entry key="$PROJECT_DIR$" value="24964342363000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/algorithm-array/build.gradle" value="2799115489" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2027848606" />
@@ -2754,7 +2758,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/Ta.java" />
         <option value="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Array.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/fastjson/build.gradle" />
@@ -2805,6 +2808,7 @@
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/SSa.java" />
         <option value="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/ts.java" />
         <option value="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/T2.java" />
+        <option value="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Dev004.java" />
       </list>
     </option>
   </component>
@@ -2832,7 +2836,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2916,6 +2919,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3274,6 +3278,7 @@
       <workItem from="1568789211210" duration="2260000" />
       <workItem from="1568880255086" duration="3985000" />
       <workItem from="1568948853149" duration="1710000" />
+      <workItem from="1571283774410" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1550110879747</created>
@@ -3395,7 +3400,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326430000" />
+    <option name="totallyTimeSpent" value="326936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3407,83 +3412,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.10369318" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" weight="0.45738637" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.46448863" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="9" weight="0.32954547" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="JRebel" side_tool="true" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.49927953" weight="0.328125" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.1039886" />
-      <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36752138" />
-      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49927953" weight="0.32954547" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.49927953" weight="0.328125" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50072044" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="JRebel Console" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299712" />
+      <window_info anchor="bottom" id="JRebel Executor" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299712" />
+      <window_info id="Structure" order="8" sideWeight="0.51278406" side_tool="true" weight="0.29755044" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49927953" weight="0.30539772" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50072044" side_tool="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.19373219" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4872159" visible="true" weight="0.28962535" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="bottom" id="Problems" order="9" weight="0.32954547" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49927953" weight="0.32954547" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4985591" visible="true" weight="0.5014245" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299712" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.3278098" />
-      <window_info anchor="bottom" id="JRebel Executor" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="JRebel Console" order="8" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3299712" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33238637" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49927953" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Structure" order="8" sideWeight="0.51278406" side_tool="true" weight="0.29755044" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49927953" weight="0.32954547" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36752138" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4985591" weight="0.38636363" />
+      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49927953" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49927953" visible="true" weight="0.4815341" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4872159" visible="true" weight="0.29466859" />
+      <window_info anchor="bottom" id="Problems" order="9" weight="0.32954547" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.3299712" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33238637" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.3278098" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.19373219" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.1039886" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32952926" />
@@ -3505,7 +3476,7 @@
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3281027" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
-      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49923077" weight="0.14265335" />
@@ -3519,7 +3490,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.50927246" side_tool="true" weight="0.2744957" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40228245" />
     </layout-to-restore>
@@ -3902,13 +3873,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.hutool/hutool-core/4.6.3/d3031d6dc28efdb9f65b1a8e78c8d2eda8aebdfe/hutool-core-4.6.3-sources.jar!/cn/hutool/core/collection/CollUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/org/apache/poi/xssf/usermodel/XSSFCellStyle.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -4191,7 +4155,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
+        <state relative-caret-position="580">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
@@ -4254,11 +4218,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Ta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
+        <state relative-caret-position="160">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#449#463#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Dev004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
