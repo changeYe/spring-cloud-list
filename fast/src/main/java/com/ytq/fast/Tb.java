@@ -6,7 +6,7 @@ package com.ytq.fast;
  */
 public class Tb {
 
-    public String name="张三李四";
+    public String name="张三";
     /**
      * 名字的修改
      */
