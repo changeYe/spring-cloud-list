@@ -13,7 +13,7 @@ gradle/*
 .idea/misc.xml
 .idea/workspace.xml
 .idea/vcs.xml
-.idea/workspace.xml
+
 .idea/modules/*
 .idea/inspectionProfiles/*
 .idea/**/workspace.xml
