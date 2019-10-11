@@ -37,4 +37,32 @@ public class Tt {
 
     }
 
+    /**
+     * 1564160400000
+     * 1380214800000
+     */
+
+    @Test
+    public void sc(){
+//        Optional<Object> o = Optional.of(null);
+//        Optional.ofNullable()
+//        com.google.common.base.Optional.fromNullable()
+//        com.google.common.base.Optional<Ta> of = com.google.common.base.Optional.of(null);
+//        of.isPresent();
+
+//        Preconditions.checkArgument();
+
+
+//        Objects.equal("","");
+//        Integer a = 1;
+//        Boolean bb = true;
+//        int b =1;
+//        System.out.println(java.util.Objects.equals(bb,true));
+//        int result = ComparisonChain.start().co.compare(11, 2).result();
+//        System.out.println(result);
+
+        Ordering.natural();
+
+    }
+
 }
