@@ -8,6 +8,11 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import com.google.common.base.Objects;
+import com.google.common.base.Preconditions;
+import com.google.common.collect.ComparisonChain;
+import com.google.common.collect.Ordering;
+import com.ytq.fast.Ta;
 import org.junit.Test;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -66,5 +71,27 @@ public class Tt {
      * 1380214800000
      */
 
+    @Test
+    public void sc(){
+//        Optional<Object> o = Optional.of(null);
+//        Optional.ofNullable()
+//        com.google.common.base.Optional.fromNullable()
+//        com.google.common.base.Optional<Ta> of = com.google.common.base.Optional.of(null);
+//        of.isPresent();
+
+//        Preconditions.checkArgument();
+
+
+//        Objects.equal("","");
+//        Integer a = 1;
+//        Boolean bb = true;
+//        int b =1;
+//        System.out.println(java.util.Objects.equals(bb,true));
+//        int result = ComparisonChain.start().co.compare(11, 2).result();
+//        System.out.println(result);
+
+        Ordering.natural();
+
+    }
 
 }
