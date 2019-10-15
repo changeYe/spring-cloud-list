@@ -1,8 +1,6 @@
 package com.ytq.fast;
 
 
-import com.google.common.base.Optional;
-
 /**
  * @author yuantongqin
  * 2019/10/11
@@ -19,8 +17,6 @@ public class Tb {
 
 
     public void sa(){
-        Optional<Ta> of = Optional.of(new Ta());
-        of.isPresent();
-        of.get();
+
     }
 }
