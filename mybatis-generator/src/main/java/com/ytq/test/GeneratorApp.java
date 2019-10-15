@@ -29,7 +29,7 @@ public class GeneratorApp {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("/Users/mac/D_disk/java_app/generator_1/java");
+        gc.setOutputDir("/Users/mac/D_disk/java_dev/kunchi/kshop-channel/channel-server/src/main/java");
         gc.setFileOverride(true);
         gc.setActiveRecord(false);// 不需要ActiveRecord特性的请改为false
         gc.setEnableCache(false);// XML 二级缓存
@@ -63,7 +63,7 @@ public class GeneratorApp {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("OJRlut1kC2jRzthq");
-        dsc.setUrl("jdbc:mysql://offline-tech.ikunchi.com:40135/channel?characterEncoding=UTF-8");
+        dsc.setUrl("jdbc:mysql://offline-tech.ikunchi.com:40135/promotion?characterEncoding=UTF-8");
         mpg.setDataSource(dsc);
 
         // 策略配置
@@ -71,7 +71,7 @@ public class GeneratorApp {
         // strategy.setCapitalMode(true);// 全局大写命名 ORACLE 注意
 //        strategy.setTablePrefix(new String[] { "tlog_", "tsys_" });// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        strategy.setInclude(new String[] { "marketing_activity_attr"}); // 需要生成的表
+        strategy.setInclude(new String[] { "econnoisseur"}); // 需要生成的表
 //        strategy.setInclude(new String[] { "product_image" }); // 需要生成的表
 //        strategy.setRestControllerStyle(true);
         // strategy.setExclude(new String[]{"test"}); // 排除生成的表
