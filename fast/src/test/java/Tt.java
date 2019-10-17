@@ -4,6 +4,17 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+<<<<<<< HEAD
+=======
+import com.google.common.base.Objects;
+import com.google.common.base.Preconditions;
+import com.google.common.collect.ComparisonChain;
+import com.google.common.collect.Ordering;
+import com.ytq.fast.Ta;
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+>>>>>>> 代码生成器修改
 import org.junit.Test;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
@@ -58,10 +69,23 @@ public class Tt {
 //        Boolean bb = true;
 //        int b =1;
 //        System.out.println(java.util.Objects.equals(bb,true));
-//        int result = ComparisonChain.start().co.compare(11, 2).result();
-//        System.out.println(result);
+        int result = ComparisonChain.start().compare(2, 2).result();
+        System.out.println(result);
 
-        Ordering.natural();
+//        Ordering.natural();
+
+    }
+
+    @Test
+    public void apacheSa(){
+
+        Boolean bb =false;
+        System.out.println(bb == null);
+        Integer aa = 10;
+        boolean aBoolean = Optional.ofNullable(!aa.equals(15)).orElse(false);
+        System.out.println(aBoolean);
+
+
 
     }
 
