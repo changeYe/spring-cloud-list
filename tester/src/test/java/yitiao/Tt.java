@@ -30,10 +30,10 @@
 // * @author yuantongqin
 // * 2019/5/7
 // */
-//public class Tt {
+//public class test {
 //
 //
-//    private static final Logger logger = LoggerFactory.getLogger(Tt.class);
+//    private static final Logger logger = LoggerFactory.getLogger(test.class);
 //
 //    //regist Security Provider,use BouncyCastleProvider
 //    static {

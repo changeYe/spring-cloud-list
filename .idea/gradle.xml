@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -13,12 +14,13 @@
             <option value="$PROJECT_DIR$/algorithm-array" />
             <option value="$PROJECT_DIR$/excel-export" />
             <option value="$PROJECT_DIR$/fast" />
-            <option value="$PROJECT_DIR$/fastjson" />
             <option value="$PROJECT_DIR$/guava-test" />
+            <option value="$PROJECT_DIR$/jwttoken" />
             <option value="$PROJECT_DIR$/kshop-gataway" />
             <option value="$PROJECT_DIR$/mybatis-generator" />
             <option value="$PROJECT_DIR$/quartz-demo" />
             <option value="$PROJECT_DIR$/rabbitmq-javapai" />
+            <option value="$PROJECT_DIR$/spring-mysql" />
             <option value="$PROJECT_DIR$/spring-rabbitmq" />
             <option value="$PROJECT_DIR$/tester" />
             <option value="$PROJECT_DIR$/zip-tools" />
