@@ -2,7 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca39e88-234f-4e90-af8e-c3ed20c21366" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/structure/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/structure/SingleLinked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/src/main/java/timecomplexityanalysis/TimeComplexityAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/src/test/java/Ta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/src/test/java/Tb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/线性结构.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-export/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/ExportExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/Ta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/Tb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava-test/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava-test/src/main/java/com/kunchi/guava/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava-test/src/test/java/com/ytq/guava/Ta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kshop-gataway/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kshop-gataway/src/main/java/com/ytq/kshop/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kshop-gataway/src/main/java/com/ytq/kshop/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kshop-gataway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-demo/src/main/java/com/ytq/quartz/QuartzApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-demo/src/main/java/com/ytq/quartz/test/HelloQuartz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-demo/src/main/java/com/ytq/quartz/test/QuartzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-demo/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz-demo/src/test/java/Tt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-javapai/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/Tt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/simple/Ta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/simple/produce/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/annotation/BigDecimalFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/annotation/DecimalDeserialize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/annotation/DecimalSerialize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/MqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/RabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/DirectConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/FanoutConsumer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/TopicConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/Sba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/Ta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/HelloDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Ta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Tb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/exception/ControllerException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/producer/RabbitProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/SSa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/BSUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/entity/AppResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/entity/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/handle/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/service/DogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/yitiao/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/RSAEncrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/RSAUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/SecretKeyUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/Tt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/testSdk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester/src/test/java/yitiao/testSdk2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/out/production/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/ZipApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/config/FileUploadConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/controller/ZipController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/Tt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileHandleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/JstreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/service/file/ZipUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/DeCompressUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/ToolRar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/utils/Tools1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zip-tools/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -91,99 +188,61 @@
         <task path="$PROJECT_DIR$/fast">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view />
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Present.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.0-jre/2d1dca555245ef4bacb35f25299f323d8dd10b27/guava-28.0-jre-sources.jar!/com/google/common/base/Present.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding>
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Optional.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.0-jre/2d1dca555245ef4bacb35f25299f323d8dd10b27/guava-28.0-jre-sources.jar!/com/google/common/base/Optional.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="165" column="38" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
-              <folding>
-                <element signature="e#4725#4726#0" expanded="true" />
-                <element signature="e#4781#4782#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fast/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tt.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Tt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fast/src/test/java/Tt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="24">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Objects.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-              <folding>
-                <element signature="e#1410#1411#0" expanded="true" />
-                <element signature="e#1471#1472#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preconditions.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.0-jre/2d1dca555245ef4bacb35f25299f323d8dd10b27/guava-28.0-jre-sources.jar!/com/google/common/base/Preconditions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="116" column="34" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
-            </state>
-          </provider>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-177" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-78">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="552">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Optional.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Optional.java">
+      <file leaf-file-name="Ta.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Ta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="144">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParserConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/ParserConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -235,6 +294,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2171,7 +2235,7 @@
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="3817846144" />
         <entry key="$USER_HOME$/.gradle/init.gradle" value="1361914166" />
-        <entry key="$PROJECT_DIR$" value="24948833643000" />
+        <entry key="$PROJECT_DIR$" value="9368083600000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/algorithm-array/build.gradle" value="2799115489" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2027848606" />
@@ -2197,7 +2261,7 @@
         <entry key="$PROJECT_DIR$/mybatis-generator/build.gradle" value="759804178" />
         <entry key="$PROJECT_DIR$/quartz-demo/build.gradle" value="2047324777" />
         <entry key="$PROJECT_DIR$/rabbitmq-javapai/build.gradle" value="439822364" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="1366829720" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2058183189" />
         <entry key="$PROJECT_DIR$/spring-rabbitmq/build.gradle" value="506552693" />
         <entry key="$PROJECT_DIR$/tester/build.gradle" value="724358976" />
         <entry key="$PROJECT_DIR$/zip-tools/build.gradle" value="2218407573" />
@@ -2646,150 +2710,150 @@
               <option name="name" value="spring-cloud-list" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/announce" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/antlr" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/base-services" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/base-services-groovy" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-cache" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-cache-http" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-comparison" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-init" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-option" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/cli" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/code-quality" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/composite-builds" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/core" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/core-api" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/dependency-management" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/diagnostics" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ear" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ide" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ide-native" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ide-play" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/installation-beacon" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/internal-android-performance-testing" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/internal-performance-testing" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/internal-testing" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ivy" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/jacoco" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/javascript" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/jvm-services" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-groovy" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-java" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-jvm" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-native" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-scala" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/launcher" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/logging" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/maven" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/messaging" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/model-core" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/model-groovy" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/native" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/osgi" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/persistent-cache" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/platform-base" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/platform-jvm" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/platform-native" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/platform-play" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/plugin-development" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/plugin-use" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/plugins" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/process-services" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/publish" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/reporting" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources-gcs" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources-http" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources-s3" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources-sftp" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/scala" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-groovy" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-option" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/launcher" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/platform-base" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/announce" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/signing" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/test-kit" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/testing-base" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/testing-junit-platform" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/testing-jvm" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/testing-native" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/core" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/installation-beacon" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/jvm-services" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/native" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/tooling-api" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/version-control" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/workers" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/platform-play" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ivy" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/wrapper" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/ant-1.9.9.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/ant-launcher-1.9.9.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-base-services-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-base-services-groovy-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-build-cache-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-build-option-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-cli-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-core-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-core-api-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-docs-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-installation-beacon-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-jvm-services-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-kotlin-dsl-0.15.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-launcher-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/process-services" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/plugins" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/antlr" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/plugin-use" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-jvm" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/maven" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/testing-base" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/version-control" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/osgi" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/testing-junit-platform" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources-http" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/internal-testing" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/composite-builds" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/model-groovy" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/test-kit" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/cli" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-init" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ear" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/jacoco" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/persistent-cache" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-comparison" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/publish" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/platform-jvm" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources-sftp" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/base-services" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/model-core" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/scala" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/diagnostics" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/dependency-management" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ide-play" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/workers" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/code-quality" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-java" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-cache" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/plugin-development" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/core-api" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/javascript" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources-gcs" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/testing-native" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/ide-native" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/base-services-groovy" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/messaging" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/testing-jvm" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/logging" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-scala" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/language-native" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/resources-s3" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/src/build-cache-http" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-logging-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-messaging-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-model-core-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-model-groovy-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-native-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-persistent-cache-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-process-services-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-resources-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-runtime-api-info-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-tooling-api-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-wrapper-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-runtime-api-info-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-native-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-process-services-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-build-cache-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-model-core-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-core-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-installation-beacon-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-base-services-groovy-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/ant-1.9.9.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-build-option-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-kotlin-dsl-0.15.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-messaging-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-jvm-services-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-launcher-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-base-services-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-cli-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-docs-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-persistent-cache-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-tooling-api-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-core-api-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-model-groovy-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/gradle-resources-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-plugin-use-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-language-scala-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ide-play-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-announce-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-antlr-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-build-cache-http-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-javascript-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-platform-native-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-jacoco-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-plugins-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-build-comparison-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-build-init-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-code-quality-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-language-native-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-version-control-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-plugin-development-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-diagnostics-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ide-native-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-build-cache-http-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-workers-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ear-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-publish-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-composite-builds-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-dependency-management-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-diagnostics-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ear-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-testing-native-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-platform-base-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-language-jvm-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-platform-play-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ide-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ide-native-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ide-play-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ivy-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-jacoco-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-javascript-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-resources-gcs-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-scala-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-resources-http-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-osgi-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-language-groovy-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-language-java-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-language-jvm-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-language-native-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-language-scala-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-maven-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-osgi-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-platform-base-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-platform-jvm-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-platform-native-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-platform-play-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-plugin-development-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-plugin-use-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-plugins-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-publish-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-antlr-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-reporting-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-resources-gcs-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-resources-http-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-resources-s3-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-resources-sftp-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-scala-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-signing-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-resources-s3-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-code-quality-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-test-kit-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-ivy-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-platform-jvm-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-testing-base-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-testing-jvm-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-testing-native-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-version-control-4.6.jar" />
-                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-workers-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-build-init-4.6.jar" />
+                  <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/gradle-maven-4.6.jar" />
                   <option value="$USER_HOME$/E_disk/install/gradle_install/gradle-4.6/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
@@ -2819,13 +2883,11 @@
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/Ta.java" />
         <option value="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Array.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/fastjson/build.gradle" />
         <option value="$PROJECT_DIR$/tester/src/test/java/yitiao/Tt.java" />
         <option value="$PROJECT_DIR$/tester/src/test/java/yitiao/testSdk2.java" />
         <option value="$PROJECT_DIR$/tester/src/test/java/yitiao/testSdk.java" />
         <option value="$PROJECT_DIR$/fastjson/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/fastjson/src/main/java/com/ytq/json/Application.java" />
         <option value="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Main.java" />
         <option value="$PROJECT_DIR$/fast/build.gradle" />
@@ -2866,6 +2928,8 @@
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/annotation/DecimalDeserialize.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/SSa.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -2895,7 +2959,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2903,106 +2966,13 @@
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="fast" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.google.guava:guava:28.0-jre" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.google.guava:guava:28.0-jre" type="70bed36:NamedLibraryElementNode" />
-              <item name="guava-28.0-jre.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.google.guava:guava:28.0-jre" type="70bed36:NamedLibraryElementNode" />
-              <item name="guava-28.0-jre.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.google.guava:guava:28.0-jre" type="70bed36:NamedLibraryElementNode" />
-              <item name="guava-28.0-jre.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.google.guava:guava:28.0-jre" type="70bed36:NamedLibraryElementNode" />
-              <item name="guava-28.0-jre.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3038,88 +3008,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Ta.ssb">
-    <configuration name="GeneratorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ytq.test.GeneratorApp" />
-      <module name="mybatis-generator_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ytq.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Ta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ytq.excel.export.Ta" />
-      <module name="excel-export_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ytq.excel.export.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kunchi.guava.Test" />
-      <module name="guava-test_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kunchi.guava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Ta.ss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-rabbitmq_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ytq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ytq" />
-      <option name="MAIN_CLASS_NAME" value="com.ytq.Ta" />
-      <option name="METHOD_NAME" value="ss" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Ta.ssb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-rabbitmq_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ytq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ytq" />
-      <option name="MAIN_CLASS_NAME" value="com.ytq.Ta" />
-      <option name="METHOD_NAME" value="ssb" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -3137,17 +3028,15 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-rabbitmq_main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytq.m.Application" />
-    </configuration>
-    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="fast_main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytq.fast.Application" />
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="kshop-gataway_main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytq.kshop.Application" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="algorithm-array_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-rabbitmq_main" />
@@ -3172,14 +3061,6 @@
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     </configuration>
-    <configuration name="GeektimeTxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="geektime-tx_main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.geektime.spring.geektimetx.GeektimeTxApplication" />
-    </configuration>
-    <configuration name="ZipApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zip-tools_main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytq.test.ZipApplication" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -3202,27 +3083,6 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.GeektimeTxApplication" />
-      <item itemvalue="Spring Boot.ZipApplication" />
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.Application (1)" />
-      <item itemvalue="Spring Boot.Application (2)" />
-      <item itemvalue="JUnit.Ta.ss" />
-      <item itemvalue="Application.GeneratorApp" />
-      <item itemvalue="Application.Ta" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.Ta.ssb" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Ta.ssb" />
-        <item itemvalue="Application.GeneratorApp" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Ta" />
-        <item itemvalue="JUnit.Ta.ss" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -3482,7 +3342,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325540000" />
+    <option name="totallyTimeSpent" value="325799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3494,83 +3354,75 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <frame x="43" y="23" width="1397" height="877" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.1027668" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
-      <window_info anchor="bottom" id="Version Control" weight="0.28835228" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.60795456" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29322767" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="JRebel" side_tool="true" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.49927953" weight="0.328125" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.1039886" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36752138" />
-      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49927953" weight="0.32954547" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49927953" weight="0.30539772" />
-      <window_info id="Capture Tool" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50072044" side_tool="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.19373219" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3544137" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.26613966" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25427508" />
+      <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.32936803" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299712" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49927953" weight="0.30539772" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="JRebel" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4872159" visible="true" weight="0.28962535" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.3278098" />
+      <window_info id="Structure" order="8" sideWeight="0.51278406" side_tool="true" weight="0.29755044" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49927953" weight="0.32954547" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299712" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50072044" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="9" weight="0.32954547" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49927953" weight="0.32954547" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="JRebel Console" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4985591" visible="true" weight="0.5014245" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299712" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.3278098" />
-      <window_info anchor="bottom" id="JRebel Executor" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="JRebel Console" order="8" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3299712" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49927953" weight="0.32954547" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Structure" order="8" sideWeight="0.51278406" side_tool="true" weight="0.29755044" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Bean Validation" order="4" weight="0.3299712" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36752138" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.19373219" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33238637" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.49927953" weight="0.328125" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32952926" />
@@ -3592,7 +3444,7 @@
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3281027" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
-      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49923077" weight="0.14265335" />
@@ -3606,7 +3458,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.50927246" side_tool="true" weight="0.2744957" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40228245" />
     </layout-to-restore>
@@ -3655,7 +3507,8 @@
     <MESSAGE value="springboot" />
     <MESSAGE value="springboot-rabbit" />
     <MESSAGE value="RabbitMQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="RabbitMQ" />
+    <MESSAGE value="自己测试修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="自己测试修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3989,83 +3842,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/org/apache/poi/xssf/usermodel/XSSFFont.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.17/9d185f2c484774285585e76f5f1d887208482f93/poi-3.17-sources.jar!/org/apache/poi/hssf/usermodel/HSSFCellStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="717" column="55" selection-start-line="717" selection-start-column="39" selection-end-line="717" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.hutool/hutool-core/4.6.3/d3031d6dc28efdb9f65b1a8e78c8d2eda8aebdfe/hutool-core-4.6.3-sources.jar!/cn/hutool/core/collection/CollUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/org/apache/poi/xssf/usermodel/XSSFCellStyle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.17/9d185f2c484774285585e76f5f1d887208482f93/poi-3.17-sources.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3920">
-          <caret line="213" column="11" selection-start-line="213" selection-start-column="11" selection-end-line="213" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tester/src/main/java/com/kunchi/spring/test/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.17/9d185f2c484774285585e76f5f1d887208482f93/poi-3.17-sources.jar!/org/apache/poi/hssf/usermodel/HSSFFont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/javax/servlet/http/HttpServletResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/Ta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/ExportExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4260">
-          <caret line="213" column="27" selection-start-line="213" selection-start-column="27" selection-end-line="213" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel-export/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="71" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/Ta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -4222,8 +3998,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/HelloDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="288">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -4290,13 +4066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/SSa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -4343,6 +4112,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mysql/src/main/java/com/ytq/data/SpringMySqlApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mysql/src/main/java/com/ytq/data/design/BaseDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/AesArithmetic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/config/FileUploadConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fast/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Ta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/ParserConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fast/src/test/java/Tt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
