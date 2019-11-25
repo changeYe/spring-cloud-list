@@ -1,3 +1,4 @@
 rootProject.name = 'spring-cloud-list'
 include 'fast'
+include 'study'
 
