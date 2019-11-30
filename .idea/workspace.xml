@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca39e88-234f-4e90-af8e-c3ed20c21366" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/study/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/StudyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/BigObjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/EdenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/JvmStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/SpaceGuarantee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/St.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/StackAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/StringAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/SortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/DeadlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/LinkedQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/executor/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/executor/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/out/production/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/ArrayCaleSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/EdenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/EdenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/St.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/St.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/StringAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/StringAdd.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -121,23 +120,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/A.java">
+      <file leaf-file-name="DeadlockDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/DeadlockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="276">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringAdd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/StringAdd.java">
+      <file leaf-file-name="LockDemo1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="244">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LockDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LockDemo2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReentrantReadWriteLock.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="701" column="24" selection-start-line="701" selection-start-column="24" selection-end-line="701" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadWriteLock.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="105" column="26" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedQueueDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/LinkedQueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/executor/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,6 +263,11 @@
       <find>SOLID_FOREGROUND</find>
       <find>value</find>
       <find>BigDecimal.ROUND_UP</find>
+      <find>process</find>
+      <find>dose</find>
+      <find>processRequest</find>
+      <find>classLoad</find>
+      <find>loadClass</find>
     </findStrings>
     <replaceStrings>
       <replace>'8</replace>
@@ -1351,17 +1440,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/list/array/Main.java" />
-        <option value="$PROJECT_DIR$/fast/build.gradle" />
-        <option value="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Application.java" />
-        <option value="$PROJECT_DIR$/fast/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Ta.java" />
-        <option value="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity/User.java" />
-        <option value="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Ta.java" />
-        <option value="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/ParserConfig.java" />
-        <option value="$PROJECT_DIR$/fast/src/test/java/Tt.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-javapai/build.gradle" />
-        <option value="$PROJECT_DIR$/rabbitmq-javapai/src/main/java/com/ytq/rabbitmq/simple/produce/Producer.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/config/MqConfig.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/RabbitConsumer.java" />
         <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/consumer/DirectConsumer.java" />
@@ -1397,11 +1475,22 @@
         <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/SpaceGuarantee.java" />
         <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/JvmStudy.java" />
         <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/StackAllocation.java" />
-        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/St.java" />
-        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/EdenTest.java" />
         <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/User.java" />
         <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/A.java" />
         <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/StringAdd.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/ArrayCaleSum.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/LinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/SortDemo.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/EdenTest.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/SynchronizedDemo.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/St.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/LinkedQueueDemo.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/executor/Producer.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/executor/Consumer.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/DeadlockDemo.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo1.java" />
+        <option value="$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo2.java" />
       </list>
     </option>
   </component>
@@ -1417,10 +1506,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="44" />
     <option name="y" value="23" />
-    <option name="width" value="1397" />
+    <option name="width" value="1396" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1432,6 +1521,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1448,6 +1539,57 @@
               <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ytq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ytq" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1482,15 +1624,35 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-list" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1504,7 +1666,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1526,12 +1688,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringAdd">
-    <configuration name="BigObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ytq.study.jvm.BigObjectTest" />
+  <component name="RunManager" selected="Application.LockDemo">
+    <configuration name="DeadlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ytq.study.jvm.DeadlockDemo" />
       <module name="study_main" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -XX:+PrintGCDetails -Xmx20M -Xms20M -Xmn10M -XX:PretenureSizeThreshold=10" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ytq.study.jvm.*" />
@@ -1551,36 +1712,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StackAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ytq.study.jvm.StackAllocation" />
+    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ytq.study.jvm.lock.LockDemo" />
       <module name="study_main" />
-      <option name="VM_PARAMETERS" value="-server -Xmx10m -Xms10m -XX:+DoEscapeAnalysis -XX:+PrintGC" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ytq.study.jvm.*" />
+          <option name="PATTERN" value="com.ytq.study.jvm.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StringAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ytq.study.jvm.StringAdd" />
+    <configuration name="SortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ytq.study.arithmetic.SortDemo" />
+      <module name="study_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ytq.study.arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ytq.study.jvm.SynchronizedDemo" />
       <module name="study_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ytq.study.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StudyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ytq.study.StudyApplication" />
-      <module name="study_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ytq.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1665,19 +1825,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.StudyApplication" />
       <item itemvalue="Application.EdenTest" />
-      <item itemvalue="Application.BigObjectTest" />
-      <item itemvalue="Application.StackAllocation" />
-      <item itemvalue="Application.StringAdd" />
+      <item itemvalue="Application.SortDemo" />
+      <item itemvalue="Application.DeadlockDemo" />
+      <item itemvalue="Application.SynchronizedDemo" />
+      <item itemvalue="Application.LockDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringAdd" />
+        <item itemvalue="Application.LockDemo" />
+        <item itemvalue="Application.SynchronizedDemo" />
         <item itemvalue="Application.EdenTest" />
-        <item itemvalue="Application.StackAllocation" />
-        <item itemvalue="Application.BigObjectTest" />
-        <item itemvalue="Application.StudyApplication" />
+        <item itemvalue="Application.DeadlockDemo" />
+        <item itemvalue="Application.SortDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -1821,7 +1981,12 @@
       <workItem from="1574314604002" duration="3400000" />
       <workItem from="1574403808435" duration="4562000" />
       <workItem from="1574479634576" duration="3350000" />
-      <workItem from="1574646382150" duration="1186000" />
+      <workItem from="1574646382150" duration="4371000" />
+      <workItem from="1574733990272" duration="7246000" />
+      <workItem from="1574818965813" duration="3260000" />
+      <workItem from="1574852126703" duration="506000" />
+      <workItem from="1574905719547" duration="4160000" />
+      <workItem from="1574991180104" duration="6474000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1550110879747</created>
@@ -1914,7 +2079,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574302498203</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="创建一个学习分支1.1">
+      <created>1574660821713</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574660821714</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1950,7 +2122,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339731000" />
+    <option name="totallyTimeSpent" value="364562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1962,10 +2134,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1397" height="877" extended-state="0" />
+    <frame x="45" y="23" width="1395" height="877" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.49927953" weight="0.328125" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.49927953" weight="0.32806325" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50072044" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299712" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -1976,19 +2148,19 @@
       <window_info id="Structure" order="8" sideWeight="0.51278406" side_tool="true" weight="0.29755044" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33238637" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49927953" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22134387" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49927953" weight="0.32938075" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.19367589" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32938075" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4985591" visible="true" weight="0.59683794" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27931488" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49927953" weight="0.44268775" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4872159" visible="true" weight="0.29962826" />
-      <window_info anchor="bottom" id="Problems" order="9" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4985591" weight="0.29512516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37285903" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32938075" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49927953" visible="true" weight="0.59683794" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4872159" visible="true" weight="0.2695458" />
+      <window_info anchor="bottom" id="Problems" order="9" weight="0.32938075" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3278098" />
@@ -2026,7 +2198,7 @@
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3281027" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.41354465" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49923077" weight="0.14265335" />
@@ -2040,7 +2212,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.50927246" side_tool="true" weight="0.2744957" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40228245" />
     </layout-to-restore>
@@ -2091,7 +2263,8 @@
     <MESSAGE value="RabbitMQ" />
     <MESSAGE value="自己测试修改" />
     <MESSAGE value="创建一个学习分支" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建一个学习分支" />
+    <MESSAGE value="创建一个学习分支1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建一个学习分支1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2402,8 +2575,20 @@
           <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/ArrayCaleSum.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/SortDemo.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="94" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -2425,115 +2610,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/validate/VdataUtil.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/groups/Default.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/Tb.java" />
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/entity/HelloDTO.java" />
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/controller/TestController.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/Application.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/RunWith.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/build.gradle" />
-    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.7.11/byte-buddy-1.7.11.jar!/net/bytebuddy/implementation/bind/annotation/RuntimeType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JacksonAnnotationsInside.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/deser/std/DateDeserializers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/annotation/DecimalDeserialize.java" />
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/SSa.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/annotation/JsonSerialize.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/annotation/BigDecimalFormat.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ser/ContextualSerializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/JsonSerializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/ytq/m/annotation/DecimalSerialize.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mysql/src/main/java/com/ytq/data/SpringMySqlApplication.java" />
-    <entry file="file://$PROJECT_DIR$/spring-mysql/src/main/java/com/ytq/data/design/BaseDecorator.java" />
-    <entry file="file://$PROJECT_DIR$/algorithm-array/src/main/java/com/algorithm/AesArithmetic.java" />
-    <entry file="file://$PROJECT_DIR$/zip-tools/src/main/java/com/ytq/test/config/FileUploadConfig.java" />
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/ytq/Ta.java" />
-    <entry file="file://$PROJECT_DIR$/fast/src/test/java/Tt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -2594,9 +2670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="15" column="72" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2621,27 +2694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/JvmStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/St.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/EdenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -2652,26 +2704,279 @@
     <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65926" />
+        <state relative-caret-position="-727">
+          <caret line="381" column="28" selection-start-line="381" selection-start-column="19" selection-end-line="381" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/core/NamedInheritableThreadLocal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/core/NamedThreadLocal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="53" column="62" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="473" column="50" selection-start-line="473" selection-start-column="33" selection-end-line="473" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="474" column="26" selection-start-line="474" selection-start-column="26" selection-end-line="474" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/StringAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="480">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="68" column="47" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="68" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/ArrayCaleSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1968">
+          <caret line="84" column="5" selection-start-line="73" selection-start-column="36" selection-end-line="84" selection-end-column="5" />
           <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/A.java">
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="1032">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/out/production/classes/com/ytq/study/arithmetic/SortDemo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="190" column="23" selection-start-line="190" selection-start-column="23" selection-end-line="190" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/arithmetic/SortDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deadlock.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="121" column="44" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deadlock1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2831" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/JvmStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/out/production/classes/com/ytq/study/jvm/EdenTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/EdenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/SynchronizedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/com/sun/org/apache/bcel/internal/util/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="428" column="69" lean-forward="true" selection-start-line="426" selection-start-column="55" selection-end-line="428" selection-end-column="69" />
+          <folding>
+            <element signature="e#12720#12721#0" expanded="true" />
+            <element signature="e#12790#12791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/St.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#171#365#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/executor/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/executor/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="170" column="10" selection-start-line="170" selection-start-column="10" selection-end-line="170" selection-end-column="10" />
+          <folding>
+            <element signature="e#4931#4932#0" expanded="true" />
+            <element signature="e#4970#4971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/LinkedQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="701" column="24" selection-start-line="701" selection-start-column="24" selection-end-line="701" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/DeadlockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/src/main/java/com/ytq/study/jvm/lock/LockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
