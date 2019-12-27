@@ -12,10 +12,13 @@ gradle/*
 .idea/gradle.xml
 .idea/workspace.xml
 .gradle/*
+.gradle/buildOutputCleanup/*
 .gradle/**
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+/*/out/*
+/*/build/*
 # Package Files #
 *.jar
 *.war
@@ -27,3 +30,8 @@ gradle/*
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+将删除 .DS_Store
+将删除 fast/src/main/java/com/ytq/fast/intercept/impl/
+将删除 fast/src/test/resources/
+将删除 study/out/
+将删除 study/src/test/

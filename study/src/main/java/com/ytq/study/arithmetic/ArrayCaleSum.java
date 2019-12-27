@@ -7,6 +7,8 @@ import java.util.Stack;
 /**
  * @author yuantongqin
  * 2019/11/23
+ * 两个数相加,双重for循环,单循环+set集合
+ * 三个数相加,三重for循环,双重for+set集合,先排序+双重for循环
  */
 public class ArrayCaleSum {
 

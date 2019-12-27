@@ -16,13 +16,16 @@ public class St {
 
 
     }
-
+ static int a=0;
     static {
-         i = 1;
+        // 静态方法块可以复制定义在它之后的类变量,但是不放访问
+         i = 10;
 //        System.out.println(i);
     }
     static int i = 1;
 //
+
+
 //    private int age ;
 //    private String name;
 //

@@ -1,37 +1,33 @@
 package com.ytq.fast.entity;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import lombok.Data;
+
 /**
  * @author yuantongqin
  * 2019/8/1
  */
+@Data
 public class User {
 
     private String name;
     private Integer age;
-
     private String address;
 
-    public String getName() {
-        return name;
+    public void tu(Article article){
+//        路捷鲲驰集团
+        System.out.println(article.toString());
     }
 
-    public void setName(String name) {
-        this.name = name;
+    @PostConstruct
+    public void ss(){
+        System.out.println("构造");
     }
 
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    @PreDestroy
+    public void ssb(){
+        System.out.println("销毁");
     }
 }
