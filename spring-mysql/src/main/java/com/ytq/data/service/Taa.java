@@ -11,11 +11,11 @@ import org.springframework.stereotype.Component;
  * 2019/10/30
  */
 @Component
-public class Ta implements ApplicationContextAware {
+public class Taa implements ApplicationContextAware {
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        User user = applicationContext.getBean("user",User.class);
+        User user = applicationContext.getBean("user", User.class);
         System.out.println(user.getName()+"==name");
     }
 }

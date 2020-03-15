@@ -2,9 +2,11 @@ package com.ytq.data.entity;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+import java.util.List;
 
 import lombok.Data;
-import org.springframework.web.bind.annotation.RequestBody;
 
 /**
  * @author yuantongqin
@@ -13,12 +15,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 @Data
 public class Tb {
 
-    @NotNull(message = "用户名不能为空")
-    private String name;
+    @NotNull(message = "用户名称不能为空")
+    private String userName;
 
-    private Integer id;
 
     @Valid
-    private Ta ta;
+    @Size(min = 10)
+    @NotNull(message = "集合不为空")
+    private List<Card> cards;
+//    private Ta ta;
 
 }

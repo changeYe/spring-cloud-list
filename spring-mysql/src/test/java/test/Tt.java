@@ -1,9 +1,10 @@
 package test;
 
 import java.math.BigDecimal;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import com.ytq.data.po.OrderPO;
-import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
 /**
@@ -35,12 +36,21 @@ public class Tt {
                 return new OrderPO();
             }
         };
+
+
     }
 
     @Test
     public void ssa(){
-        String s = StringUtils.leftPad("2", 4, "00");
-        System.out.println(s);
+//        String s = StringUtils.leftPad("2", 4, "00");
+//        System.out.println(s);
+//
+//        String md5Str = MD5Digest.getMD5Str("1234");
+//        System.out.println(md5Str);
+        long l = System.currentTimeMillis();
+        System.out.println(l);
+        String payload = IntStream.rangeClosed(1, 10).mapToObj(value -> value+"a").collect(Collectors.joining());
+        System.out.println(payload);
     }
 
 

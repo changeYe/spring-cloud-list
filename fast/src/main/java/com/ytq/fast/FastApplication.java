@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 2019/8/1
  */
 @SpringBootApplication
-public class Application {
+public class FastApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(FastApplication.class, args);
     }
 
 }

@@ -1,5 +1,7 @@
 server:
   port: 8081
+  servlet:
+    path: /f
 spring:
   application:
     name: fast
