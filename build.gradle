@@ -22,19 +22,3 @@ subprojects {
 
 }
 
-// 只是定义这是一个java项目，这将会为你添加 Java 插件及其一些内置任务
-//apply plugin: 'java'
-//apply plugin: 'war'
-//
-//repositories{
-//    mavenCentral()
-//}
-//
-//sourceCompatibility = 1.8
-//targetCompatibility = 1.8
-//
-//version = '1.0.0'
-//dependencies{
-//    testCompile 'junit:junit:4.11'
-//}
-//

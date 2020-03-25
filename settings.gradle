@@ -13,4 +13,5 @@ include 'rabbitmq-javapai'
 include 'excel-export'
 include 'jwttoken'
 include 'spring-mysql'
+include 'java100'
 

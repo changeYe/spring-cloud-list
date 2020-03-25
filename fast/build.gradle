@@ -1,3 +1,7 @@
+//plugins{
+//    id 'maven-publish'
+//}
+
 apply plugin:"org.springframework.boot"
 
 group 'com.ytq.fast'
@@ -5,11 +9,64 @@ version '1.0.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
+//repositories {
+////    mavenLocal()
+//    mavenCentral()
+//}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web:2.0.4.RELEASE')
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'io.sentry:sentry-spring:1.7.30'
+    compile 'io.springfox:springfox-swagger2:2.9.2'
+    compile 'io.springfox:springfox-swagger-ui:2.9.2'
 }
+
+task sourceJar(type: Jar) {
+    from sourceSets.main.allJava
+//    archiveClassifier = "sources"
+    classifier "sources"
+}
+
+//publishing{
+//    publications{
+//        library(MavenPublication){
+//            groupId project.group
+//            artifactId project.name+'-ytq'
+//            version project.version
+//            from components.java
+//            artifact sourceJar
+//        }
+//    }
+//    repositories {
+//
+//        maven{
+//            def localMavenRepo = 'file://' + new File(System.getProperty('user.home'), '.m2/repository').absolutePath
+//            url localMavenRepo
+//        }
+//
+////        maven{
+////
+////            url '.m2/res/'
+////        }
+//
+////        mavenLocal()
+//
+////        maven {
+////
+////            url = version.endsWith('SNAPSHOT') ? project.ext.nexus_snapshots_url : project.ext.nexus_releases_url
+////            credentials {
+////                username project.ext.kunchi_nexus_username
+////                password project.ext.kunchi_nexus_password
+////            }
+//////
+//////            url = ''
+//////
+//////            credentials{
+//////                username = 'joe'
+//////                password = 'secret'
+//////            }
+////        }
+//
+//    }
+//}
