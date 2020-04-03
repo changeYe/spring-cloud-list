@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/rabbitmq-javapai" />
             <option value="$PROJECT_DIR$/spring-mysql" />
             <option value="$PROJECT_DIR$/spring-rabbitmq" />
+            <option value="$PROJECT_DIR$/spring-security" />
             <option value="$PROJECT_DIR$/tester" />
             <option value="$PROJECT_DIR$/zip-tools" />
           </set>

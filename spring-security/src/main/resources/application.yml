@@ -1,0 +1,7 @@
+server:
+  port: 8089
+
+jwt:
+  secretKey: abc
+  expiration: 10
+

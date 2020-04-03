@@ -1,10 +1,8 @@
 package com.ytq.test;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
-import java.util.Locale;
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -58,6 +56,12 @@ public class Ta {
                 .withIssuedAt(new Date())
                 .sign(al);
         System.out.println(token);
+    }
+
+    @Test
+    public void tc(){
+        long l = TimeUnit.SECONDS.toMillis(10);
+        System.out.println(l);
     }
 
 }

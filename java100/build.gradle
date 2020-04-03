@@ -11,8 +11,6 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    annotationProcessor 'org.projectlombok:lombok:1.18.2'
-    compileOnly 'org.projectlombok:lombok:1.18.2'
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile 'org.jodd:jodd-core:5.0.13'
     runtime "mysql:mysql-connector-java:5.1.46"

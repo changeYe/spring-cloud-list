@@ -5,10 +5,12 @@
 *.iml
 .gradle/**/*
 .gradle/**
-/**/build/**
 build/**
-
-
+/**/build/reports/**
+/**/build/resources/**
+/**/build/test-results/**
+/**/build/tmp/**
+/**/build/**
 # User-specific stuff
 .idea/*
 .idea/**/workspace.xml
@@ -30,8 +32,9 @@ build/**
 .idea/**/gradle.xml
 .idea/**/libraries
 .gradle
+.gradle/buildOutputCleanup/**
 
-
+/**/out/**
 # CMake
 cmake-build-*/
 

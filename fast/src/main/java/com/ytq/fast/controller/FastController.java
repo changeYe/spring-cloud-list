@@ -1,10 +1,12 @@
 package com.ytq.fast.controller;
 
+import com.ytq.fast.config.JwtProperties;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,11 +26,14 @@ public class FastController {
         return name + "你好！";
     }
 
+    @Autowired
+    private JwtProperties jwtProperties;
     @GetMapping("/sentry/wrong")
     @ApiOperation("错误")
     public String wrong(@ApiParam(name = "name",value = "name描述") String name){
 //        int x = 1 / 0;
-        return "Hello World!";
+
+        return "Hello World!" + jwtProperties.toString();
     }
 
 }

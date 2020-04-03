@@ -2,21 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca39e88-234f-4e90-af8e-c3ed20c21366" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/AuthApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/AdminAuthorizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/MyAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/MyAuthenticationSucessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/entity/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/entity/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/entity/UserPermissionPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/server/AdminUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-export/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/filter/TimeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/filter/TimerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/filter/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/result/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/result/RestfulAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/dto/YtqResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity/UserPermissionPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/server/AdminUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java100/src/main/java/com/ytq/fault/hundred/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwttoken/src/main/java/com/ytq/jwt/JwtApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwttoken/src/main/java/com/ytq/jwt/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwttoken/src/main/java/com/ytq/jwt/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/SecurityApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/config/filter/AdminAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/config/filter/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/config/result/FailAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/config/result/LoginFailHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/exception/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/exception/SecurityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/model/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/model/dto/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/model/dto/UserRegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/model/entity/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/model/entity/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/model/entity/UserPermissionPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/server/UserServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/server/impl/AdminAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/server/impl/UserServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security/src/test/java/Ta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/reports/tests/test/classes/Tt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/test-results/test/TEST-Tt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-array/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-array/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-export/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/excel-export/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/ExportExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/excel/ExportExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/Ta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/Tb.java" beforeDir="false" afterPath="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/excel/Tb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fast/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast/out/production/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/ParserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/utils/ParserConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/controller/FastController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/controller/FastController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity/UserPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fast/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java100/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/java100/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java100/src/main/java/com/ytq/fault/hundred/controller/LockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java100/src/main/java/com/ytq/fault/hundred/controller/LockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwttoken/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jwttoken/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwttoken/src/main/java/com/ytq/jwt/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwttoken/src/test/java/com/ytq/test/Ta.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwttoken/src/test/java/com/ytq/test/Ta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mysql/src/main/java/com/ytq/data/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mysql/src/main/java/com/ytq/data/entity/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +134,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/jwttoken">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -81,41 +147,28 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name="fast" type="2d1252cf:ModuleNode" />
+                <item name="spring-security" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name="fast" type="2d1252cf:ModuleNode" />
+                <item name="spring-security" type="2d1252cf:ModuleNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name="fast" type="2d1252cf:ModuleNode" />
+                <item name="spring-security" type="2d1252cf:ModuleNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
                 <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name="fast" type="2d1252cf:ModuleNode" />
+                <item name="spring-security" type="2d1252cf:ModuleNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
                 <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name="fast" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud-list" type="f1a62948:ProjectNode" />
-                <item name="fast" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -123,6 +176,9 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-cloud-list" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,24 +216,32 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/entity" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/excel" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ytq.security.utils" />
+      <recent name="com.ytq.security.server" />
+      <recent name="com.ytq.fast.utils" />
       <recent name="com.ytq.data.po" />
       <recent name="com.ytq.data.dao" />
-      <recent name="com.ytq.m.consumer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring-mysql/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/tester/libs" />
+      <recent name="$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/entity" />
+      <recent name="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/entity" />
+      <recent name="$PROJECT_DIR$/fast/src/main/java/com/ytq/fast" />
+      <recent name="$PROJECT_DIR$/excel-export/src/main/resources" />
+      <recent name="$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,72 +256,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FastApplication">
-    <configuration name="ConcurrentUtilController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ytq.fault.hundred.controller.ConcurrentUtilController" />
-      <module name="java100_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ytq.fault.hundred.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LockServerImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ytq.fault.hundred.server.lock.impl.LockServerImpl" />
-      <module name="java100_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ytq.fault.hundred.server.lock.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SentryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SentryDemo" />
-      <module name="fast_test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SecurityApp">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spring-cloud-list:fast [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Ta.tc" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/fast" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.ytq.test.Ta.tc&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="publish" />
+            <option value=":jwttoken:cleanTest" />
+            <option value=":jwttoken:test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ta.tea" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Ta.tea&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-security:cleanTest" />
+            <option value=":spring-security:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -318,11 +361,24 @@
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     </configuration>
+    <configuration name="AuthApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="excel-export_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ytq.excel.export.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytq.excel.export.AuthApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FastApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="fast_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ytq.fast.*" />
+          <option name="PATTERN" value="com.ytq.fast.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,6 +390,20 @@
     <configuration name="FaultHundredApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="java100_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytq.fault.hundred.FaultHundredApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jwttoken_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytq.jwt.JwtApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-security_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytq.security.SecurityApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -363,24 +433,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConcurrentUtilController" />
-      <item itemvalue="Application.LockServerImpl" />
-      <item itemvalue="Gradle.spring-cloud-list:fast [publish]" />
-      <item itemvalue="Spring Boot.FastApplication" />
-      <item itemvalue="Application.SentryDemo" />
+      <item itemvalue="Gradle.Ta.tc" />
+      <item itemvalue="Gradle.Ta.tea" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.FaultHundredApp" />
       <item itemvalue="Spring Boot.SpringMySqlApplication" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.ZipApplication" />
+      <item itemvalue="Spring Boot.JwtApp" />
+      <item itemvalue="Spring Boot.FastApplication" />
+      <item itemvalue="Spring Boot.AuthApp" />
+      <item itemvalue="Spring Boot.SecurityApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ta.tea" />
         <item itemvalue="Spring Boot.FastApplication" />
-        <item itemvalue="Application.SentryDemo" />
-        <item itemvalue="Application.LockServerImpl" />
-        <item itemvalue="Application.ConcurrentUtilController" />
-        <item itemvalue="Gradle.spring-cloud-list:fast [publish]" />
+        <item itemvalue="Spring Boot.AuthApp" />
+        <item itemvalue="Gradle.Ta.tc" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +634,12 @@
       <workItem from="1584686488228" duration="5320000" />
       <workItem from="1584759929483" duration="1428000" />
       <workItem from="1584791089574" duration="3478000" />
-      <workItem from="1585012890637" duration="11586000" />
+      <workItem from="1585012890637" duration="18202000" />
+      <workItem from="1585211793248" duration="16069000" />
+      <workItem from="1585373329571" duration="16111000" />
+      <workItem from="1585555790500" duration="3591000" />
+      <workItem from="1585619929635" duration="10944000" />
+      <workItem from="1585876391570" duration="12058000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1550110879747</created>
@@ -664,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585123171311</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="删除不必要的文件">
+      <created>1585123783526</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585123783526</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,7 +779,8 @@
     <MESSAGE value="RabbitMQ" />
     <MESSAGE value="接口鉴权" />
     <MESSAGE value="sentry 集成&#10;swagger 集成" />
-    <option name="LAST_COMMIT_MESSAGE" value="sentry 集成&#10;swagger 集成" />
+    <MESSAGE value="删除不必要的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除不必要的文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -959,7 +1042,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jwttoken/src/test/java/com/ytq/test/Ta.java</url>
-          <line>35</line>
+          <line>33</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-mysql/src/main/java/com/ytq/data/controller/OrderController.java</url>
@@ -1020,6 +1103,111 @@
           <url>file://$PROJECT_DIR$/java100/src/main/java/com/ytq/fault/hundred/controller/ConcurrentUtilController.java</url>
           <line>45</line>
           <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/security1/server/impl/UserDetailServiceImpl.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/security1/controller/SecurityController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/filter/TimerFilter.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/security2/ValidateCodeFilter.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/server/AdminUserDetailService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/MyAuthenticationFailureHandler.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/MyAuthenticationSucessHandler.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/MyAuthenticationSucessHandler.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel-export/src/main/java/com/ytq/excel/export/auth/config/MyAuthenticationSucessHandler.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/controller/FastController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/controller/FastController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/filter/JwtAuthenticationTokenFilter.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/result/RestAuthenticationEntryPoint.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/config/result/RestfulAccessDeniedHandler.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fast/src/main/java/com/ytq/fast/server/AdminUserDetailService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.7.RELEASE/d6a8f337d50f9082135739411940a3441627b306/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/config/filter/AdminAuthorizationFilter.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/server/impl/AdminAuthService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/controller/AdminController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/config/filter/AdminAuthorizationFilter.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security/src/main/java/com/ytq/security/controller/AdminController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

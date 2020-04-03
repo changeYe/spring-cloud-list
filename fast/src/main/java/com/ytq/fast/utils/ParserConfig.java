@@ -1,4 +1,4 @@
-package com.ytq.fast;
+package com.ytq.fast.utils;
 
 import java.lang.reflect.Field;
 import java.util.Map;

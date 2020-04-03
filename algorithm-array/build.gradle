@@ -1,16 +1,15 @@
-plugins {
-    id 'java'
-}
+apply plugin:"org.springframework.boot"
 
 group 'com.ytq.algorithm'
 version '1.0.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
+//repositories {
+//    mavenCentral()
+//}
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.baomidou:mybatis-plus-boot-starter:3.1.0'
 }

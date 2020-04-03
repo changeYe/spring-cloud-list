@@ -15,11 +15,18 @@ sourceCompatibility = 1.8
 //}
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web:2.0.4.RELEASE')
+    compile('org.springframework.boot:spring-boot-starter-web')
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile 'io.sentry:sentry-spring:1.7.30'
     compile 'io.springfox:springfox-swagger2:2.9.2'
     compile 'io.springfox:springfox-swagger-ui:2.9.2'
+//    compile('org.springframework.boot:spring-boot-starter-security')
+    runtime "mysql:mysql-connector-java:5.1.46"
+//    compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2')
+    compile 'com.baomidou:mybatis-plus-boot-starter:3.0.5'
+    implementation 'org.springframework.cloud:spring-cloud-starter-oauth2'
+    compile "com.auth0:java-jwt:3.4.0"
+
 }
 
 task sourceJar(type: Jar) {

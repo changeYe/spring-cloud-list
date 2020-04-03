@@ -1,5 +1,6 @@
 package com.ytq.data.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
