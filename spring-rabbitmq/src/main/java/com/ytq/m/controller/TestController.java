@@ -1,17 +1,14 @@
 package com.ytq.m.controller;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.validation.Valid;
 
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.core.JsonFactory;
 import com.ytq.m.entity.HelloDTO;
 import com.ytq.m.producer.RabbitProducer;
-import com.ytq.m.validate.VdataUtil;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
 import org.apache.poi.hssf.usermodel.HSSFFont;
@@ -19,7 +16,6 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
-import org.apache.poi.ss.util.CellRangeAddress;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -49,10 +45,16 @@ public class TestController {
     public String hello(@Validated @RequestBody HelloDTO name){
 //        VdataUtil<HelloDTO> vdataUtil = new VdataUtil();
 //        vdataUtil.verification(name);
-        //发送消息
-//        rabbitProducer.send();
+
         logger.info("==name:"+name);
         return "你好:"+name;
+    }
+
+    @GetMapping("/send")
+    public String sendMsg(String name){
+        //发送消息
+        rabbitProducer.send();
+        return "你好 "+name;
     }
 
     @GetMapping("/export.do")

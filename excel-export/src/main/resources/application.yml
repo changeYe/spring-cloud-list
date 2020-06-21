@@ -1,14 +1,31 @@
 auth-server-url: http://localhost:8089 # 授权服务地址
 server:
   port: 8089
-security:
-  oauth2:
-    client:
-      client-id: test
-      client-secret: test01
-      scope: all
-      registered-redirect-uri: http://mrbird.cc
-      access-token-uri: ${auth-server-url}/oauth/token
-      user-authorization-uri: ${auth-server-url}/oauth/authorize
-    resource:
-      token-info-uri: ${auth-server-url}/oauth/check_token #检查令牌
+#security:
+#  oauth2:
+#    client:
+#      client-id: test
+#      client-secret: test01
+#      scope: all
+#      registered-redirect-uri: http://mrbird.cc
+#      access-token-uri: ${auth-server-url}/oauth/token
+#      user-authorization-uri: ${auth-server-url}/oauth/authorize
+#    resource:
+#      token-info-uri: ${auth-server-url}/oauth/check_token #检查令牌
+
+spring:
+  application:
+    name: excel-export-server
+    description: excel-export-server
+    version: 1.0
+  cloud:
+    consul:
+#      host: consul-dev-tech.ikunchi.com
+      host: isb-consul-qa.ikunchi.com
+      port: 80
+      discovery:
+        prefer-ip-address: true
+        healthCheckPath: /actuator/health
+        healthCheckInterval: 15s
+        instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}
+        register: false

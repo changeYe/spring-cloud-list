@@ -2,11 +2,16 @@ package com.ytq.data.service.impl;
 
 import com.ytq.data.entity.Person;
 import com.ytq.data.service.OrderService;
+import com.ytq.data.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.event.TransactionalEventListener;
+import org.springframework.transaction.interceptor.TransactionAspectSupport;
+import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 /**
  * @author yuantongqin
@@ -34,5 +39,18 @@ public class OrderServiceImpl implements OrderService {
         System.out.println("内容"+person.toString());
     }
 
+    @Autowired
+    private UserService userService;
 
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public String sayHello(String name) {
+
+        TransactionAspectSupport.currentTransactionStatus();
+        String transactionName = TransactionSynchronizationManager.getCurrentTransactionName();
+        System.out.println(transactionName+"==当前线程名称："+Thread.currentThread().getName());
+        String hello = userService.hello(name);
+
+        return hello;
+    }
 }

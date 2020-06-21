@@ -1,10 +1,13 @@
 package com.ytq.m.config;
 
+import com.ytq.m.dto.ExchangeBindQueueEnum;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;
+import org.springframework.amqp.core.ExchangeBuilder;
 import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.QueueBuilder;
 import org.springframework.amqp.core.TopicExchange;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -51,6 +54,8 @@ public class RabbitConfig {
     }
 
 
+
+
     @Bean
     public Binding directBinding(DirectExchange directExchange, @Qualifier("directQueue") Queue queue){
         return BindingBuilder.bind(queue).to(directExchange).with("routingDirect");
@@ -67,6 +72,28 @@ public class RabbitConfig {
     @Bean
     public Binding fanoutBinding2(FanoutExchange fanoutExchange, @Qualifier("fanoutQueue2") Queue queue){
         return BindingBuilder.bind(queue).to(fanoutExchange);
+    }
+
+    @Bean
+    public DirectExchange ttlDirectExchange(){
+        return (DirectExchange)ExchangeBuilder
+                .directExchange(ExchangeBindQueueEnum.TTL_MESSAGE_QUEUE.getExchangeName())
+                .durable(true)
+                .build();
+    }
+
+    @Bean
+    public Queue orderTtlQueue() {
+        return QueueBuilder
+                .durable(ExchangeBindQueueEnum.TTL_MESSAGE_QUEUE.getQueueName())
+                .withArgument("x-dead-letter-exchange", ExchangeBindQueueEnum.TTL_MESSAGE_QUEUE.getExchangeName())//到期后转发的交换机
+                .withArgument("x-dead-letter-routing-key", ExchangeBindQueueEnum.TTL_MESSAGE_QUEUE.getRoutingKeyName())//到期后转发的路由键
+                .build();
+    }
+
+    @Bean
+    public Binding orderTtlBinding(@Qualifier("ttlDirectExchange") DirectExchange directExchange, @Qualifier("orderTtlQueue") Queue queue){
+        return BindingBuilder.bind(queue).to(directExchange).with(ExchangeBindQueueEnum.TTL_MESSAGE_QUEUE.getRoutingKeyName());
     }
 
 

@@ -10,6 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.support.TransactionSynchronization;
+import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 /**
  * @author yuantongqin
@@ -46,5 +50,51 @@ public class UserServiceImpl implements UserService {
         }
         return apiAuth.auth(param, user.getPassword());
 
+    }
+
+
+
+    @Transactional(propagation = Propagation.NESTED)
+    @Override
+    public String hello(String name) {
+        TransactionSynchronizationManager.registerSynchronization(new TransactionSynchronization() {
+            @Override
+            public void suspend() {
+
+            }
+
+            @Override
+            public void resume() {
+
+            }
+
+            @Override
+            public void flush() {
+
+            }
+
+            @Override
+            public void beforeCommit(boolean readOnly) {
+
+            }
+
+            @Override
+            public void beforeCompletion() {
+
+            }
+
+            @Override
+            public void afterCommit() {
+
+            }
+
+            @Override
+            public void afterCompletion(int status) {
+
+            }
+        });
+        String transactionName = TransactionSynchronizationManager.getCurrentTransactionName();
+        System.out.println("事务名称："+transactionName);
+        return name;
     }
 }

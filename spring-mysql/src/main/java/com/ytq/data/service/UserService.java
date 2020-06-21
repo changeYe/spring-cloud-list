@@ -10,4 +10,6 @@ import com.ytq.data.dto.ApiOAuthDTO;
 public interface UserService {
 
     Boolean ApiOAuthByName(ApiOAuthDTO.Param param);
+
+    String hello(String name);
 }

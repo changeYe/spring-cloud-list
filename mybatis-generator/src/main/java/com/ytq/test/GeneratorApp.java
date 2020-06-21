@@ -1,8 +1,5 @@
 package com.ytq.test;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
@@ -11,6 +8,9 @@ import com.baomidou.mybatisplus.generator.config.GlobalConfig;
 import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * yuantongqin
@@ -23,10 +23,10 @@ public class GeneratorApp {
         AutoGenerator mpg = new AutoGenerator();
         // 选择 freemarker 引擎，默认 Veloctiy
         // mpg.setTemplateEngine(new FreemarkerTemplateEngine());
-
+///Users/mac/D_disk/java_app/spring-cloud-list/mybatis-generator/src/main/java/com/ytq/test/GeneratorApp.java
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("/Users/mac/D_disk/java_app/generator_1/java");
+        gc.setOutputDir("/Users/mac/D_disk/java_dev/kunchi/ffc-budget/ffc-budget-spi/src/main/java/");
         gc.setFileOverride(true);
         gc.setActiveRecord(false);// 不需要ActiveRecord特性的请改为false
         gc.setEnableCache(false);// XML 二级缓存
@@ -58,9 +58,9 @@ public class GeneratorApp {
 //            }
 //        });
         dsc.setDriverName("com.mysql.jdbc.Driver");
-        dsc.setUsername("root");
-        dsc.setPassword("OJRlut1kC2jRzthq");
-        dsc.setUrl("jdbc:mysql://offline-tech.ikunchi.com:40135/channel?characterEncoding=UTF-8");
+        dsc.setUsername("kfin");
+        dsc.setPassword("kfin");
+        dsc.setUrl("jdbc:mysql://offline-tech.ikunchi.com:30037/kfin_server?seUnicode=true&characterEncoding=UTF-8");
         mpg.setDataSource(dsc);
 
         // 策略配置
@@ -68,7 +68,12 @@ public class GeneratorApp {
         // strategy.setCapitalMode(true);// 全局大写命名 ORACLE 注意
 //        strategy.setTablePrefix(new String[] { "tlog_", "tsys_" });// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        strategy.setInclude(new String[] { "marketing_activity_attr"}); // 需要生成的表
+//        strategy.setTablePrefix("reconciliation_");
+        strategy.setEntityLombokModel(true);
+        strategy.setInclude(new String[] {
+
+                "dept_budget_items_config",
+        }); // 需要生成的表
 //        strategy.setInclude(new String[] { "product_image" }); // 需要生成的表
 //        strategy.setRestControllerStyle(true);
         // strategy.setExclude(new String[]{"test"}); // 排除生成的表
@@ -95,10 +100,11 @@ public class GeneratorApp {
         // 包配置
         PackageConfig pc = new PackageConfig();
 //        pc.setParent("com.kunchi.kshop.product");
-        pc.setParent("com.kunchi.kshop");
-        pc.setModuleName("channel");
+        pc.setParent("com.kunchi.ffc");
+        pc.setModuleName("budget");
         pc.setEntity("po");
         pc.setMapper("dao");
+
 
         mpg.setPackageInfo(pc);
 

@@ -76,6 +76,13 @@ public class OrderController {
         return "你好："+say;
     }
 
+    @GetMapping("/say/hello")
+    public String sayHello(String name){
+        String s = orderService.sayHello("你好  " + name);
+        return s;
+
+    }
+
 
     @PostMapping("/auth")
     public String apiOAuth(@Validated @RequestBody ApiOAuthDTO.Param authDTO){

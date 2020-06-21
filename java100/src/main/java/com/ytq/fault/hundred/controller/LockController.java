@@ -1,5 +1,6 @@
 package com.ytq.fault.hundred.controller;
 
+import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
 import com.ytq.fault.hundred.dao.UserMapper;
@@ -21,11 +22,12 @@ public class LockController {
     private UserMapper userMapper;
 
     @GetMapping("/count")
-    public Integer count(){
+    public Integer count() throws InterruptedException {
         //20200331134015
         Long beginTime = 20200331134015L;
         Long endTime = 20200331135015L;
 
+        TimeUnit.MINUTES.sleep(10);
         Integer count = userMapper.count(beginTime, endTime);
         System.out.println(count);
         return count;
